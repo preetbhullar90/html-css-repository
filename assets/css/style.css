@@ -172,38 +172,34 @@ font-size: 40px;
   color: #9e9999;
  }  
 
- #contact{
+ /* contact form for contact gym*/
+ #contact {
     display: flex;
     justify-content:space-evenly;
     width: 100%;
     height: 400px;
     margin:50px auto;
 }
-#contact-form{
-
- display: flex;
- flex-direction: column;
- padding-left: 20px;
-width: 25em;
-justify-content: center;
-margin-right: 30px;
+#contact-form {
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+   width: 25em;
+   justify-content: center;
+   margin-right: 30px;
 }
-#contact-form h1{
+#contact-form h1 {
     color: #fff;
     font-size: 40px;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     padding-bottom: 20px;
 }
-
-   
-
-#contact-form label{
+#contact-form label {
     color: #fff;
     margin-bottom: 50px;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
-  
 }
 #contact input{
   padding:10px 5px;
@@ -229,6 +225,7 @@ color: #fff;
 }
 
 
+/*Site map,and links in contact form*/
 #contact-navbar{
     width: 20em;
     display: flex;
@@ -236,13 +233,10 @@ color: #fff;
     justify-content: left;
 }
 #contact-navbar ul{
-   
 text-align: center;
 list-style: none;
 position: relative;
 margin-top: 40px;
-
-
 }
 #contact-navbar li{
     margin: 1px auto;
@@ -255,7 +249,6 @@ margin-top: 40px;
     color: #fff;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
-
 }
 #contact-navbar a:hover{
     color: #224249;
@@ -264,8 +257,9 @@ margin-top: 40px;
     color: #fff;
     text-transform: uppercase;
     position: absolute;
-   
 }
+
+/*  Gym opning time in contact form */
 #time{
   text-align: left;
   padding-top: 60px;
@@ -282,6 +276,7 @@ margin-top: 40px;
     letter-spacing: 1px;
 }
 
+/*  Address for the gym */
 #address{
   display: flex;
   flex-direction: column;
@@ -297,21 +292,19 @@ margin-top: 40px;
     padding-bottom: 20px;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
-   
  }
 #address p{
    line-height: 30px;
    font-size: 15px;
-  
 }
+
+/*  Phone nuber and email in contact form */
 #mail-phone{
     width: 20em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 2px;
-    
-    
 }
 #mail-phone a{
     display: flex;
@@ -320,8 +313,35 @@ margin-top: 40px;
     color: #fff;
     letter-spacing: 1px;
     font-size: 20px;
-    
 }
 #mail-phone a:hover{
     color: #224249;   
+}
+
+/*  Google map */
+#map iframe{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0;
+}
+
+/*  Footer with social media */
+ footer {
+     width: 100%;
+     margin-bottom: 10px;
+     height: 100px;
+     background-color:#224249;
+     color: #fff;
+     margin-top: -4px;
+     text-align: center;
+     font-size: 20px;
+ }
+    footer a{
+     padding: 10px 0;
+     color: #fff;
+     padding: 10px 10px;
+}
+    footer p {
+       letter-spacing: 1px;
+        margin:auto;
 }
