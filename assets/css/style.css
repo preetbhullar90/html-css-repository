@@ -171,3 +171,157 @@ font-size: 40px;
  .gym-about-link > a:hover{
   color: #9e9999;
  }  
+
+ #contact{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 400px;
+    margin:50px auto;
+}
+#contact-form{
+
+ display: flex;
+ flex-direction: column;
+ padding-left: 20px;
+width: 25em;
+justify-content: center;
+margin-right: 30px;
+}
+#contact-form h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+}
+
+   
+
+#contact-form label{
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+  
+}
+#contact input{
+  padding:10px 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    outline-width: 0;
+   border-style: none;
+}
+#contact form input:nth-last-child(1){
+   align-items: center;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+#contact form input:nth-last-child(1):hover{
+background-color: #008000;
+color: #fff;
+}
+
+
+#contact-navbar{
+    width: 20em;
+    display: flex;
+    padding-top: 70px;
+    justify-content: left;
+}
+#contact-navbar ul{
+   
+text-align: center;
+list-style: none;
+position: relative;
+margin-top: 40px;
+
+
+}
+#contact-navbar li{
+    margin: 1px auto;
+    padding: 10px 0;
+}
+#contact-navbar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+
+}
+#contact-navbar a:hover{
+    color: #224249;
+}
+#contact-navbar h1{
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+   
+}
+#time{
+  text-align: left;
+  padding-top: 60px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  width: 20em;
+  color: #fff;
+}
+#time h2{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
+#time p{
+    letter-spacing: 1px;
+}
+
+#address{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-top: 60px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  
+}
+#address h1{
+    line-height: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+   
+ }
+#address p{
+   line-height: 30px;
+   font-size: 15px;
+  
+}
+#mail-phone{
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2px;
+    
+    
+}
+#mail-phone a{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
+#mail-phone a:hover{
+    color: #224249;   
+}
