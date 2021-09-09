@@ -58,3 +58,52 @@ width: 100%;
     font-size: 50px;
     text-decoration: none;
 }
+
+
+/*  Hero Image for home page */
+#hero-image{
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+#image{
+    background: url("../images/hero-photo.jpg") no-repeat center center;  
+    
+    width: 100%;
+    height: 600px; 
+}
+
+
+/*Cover Text*/
+
+#cover-text{
+    border-radius: 10px;
+    position: absolute;
+    font-size: 130%;
+    font-family:Oswald,sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(53, 214, 219, 0.753);
+    bottom: 10em;
+    left:50px ;
+}
+#cover-text >h1 {
+    padding-bottom: 20px;
+      font-size: 170%;
+       text-transform: uppercase;
+       letter-spacing: 3px;
+       font-family: Oswald, sans-serif;
+       color: #fff;
+}
+#cover-text >p {
+    font-size: 25px;
+    color: #c81717;
+    font-family: Oswald, sans-serif;
+}
+strong{
+font-size: 40px;
+}
