@@ -107,3 +107,67 @@ width: 100%;
 strong{
 font-size: 40px;
 }
+
+/*  Gym blogs section for the gym about under the hero image on the home page*/ 
+#gym-about{
+    display: flex;
+  margin: 30px auto;
+    width: 100%;
+    height: 800px;
+   
+    
+}
+.gym-about-left,.gym-about-center,.gym-about-right{
+    width:30em ;
+   padding:30px 20px;
+    margin: 30px auto;
+    background-color: #1a1a18;
+    box-shadow: 5px 5px 5px #7a7878;
+    transition: transform .2s;
+}
+.gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
+    transform: scale(1.1);
+    
+}
+.gym-about-left img,.gym-about-center img,.gym-about-right img{
+    width:100%;
+    height: 25vh;
+    border-radius: 15%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 2px solid#fff;
+}
+.gym-about-left h1,.gym-about-center h1,.gym-about-right h1{
+  text-align: center;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 4px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.gym-about-left p,.gym-about-center p,.gym-about-right p{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+ .gym-about-link{
+   text-align: center;
+   padding-top: 30px;
+ } 
+ .gym-about-link a{
+     color: #fff;
+     font-size: 20px;
+     font-family: Oswald, sans-serif;
+     letter-spacing: 2px;
+     border-bottom: 2px solid#fff;
+     cursor: pointer;
+     text-decoration: none;
+} 
+ .gym-about-link > a:hover{
+  color: #9e9999;
+ }  
