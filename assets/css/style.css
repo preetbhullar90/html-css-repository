@@ -366,6 +366,64 @@ footer a{
     height: 90%;
 }
 
+/* Hero image for Signup file */
+#signup-form-image{
+   position: absolute;
+    width: 100%;
+   height: 627px;
+    background: url("../images/signup-image.jpg") center center /cover no-repeat  ;
+    overflow: hidden;
+}
+#hero-image{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+ /* Signup form for join  the Gym */
+
+ #signup-form{
+  height: 100%;
+   text-align: center;
+    position: relative;
+   background-color: #434444c0;
+}
+#signup-form >h1{
+font-family:Oswald,sans-serif ;
+padding-bottom: 20px;
+ font-size: 60px;
+ color:#fff;
+ letter-spacing: 2px;
+}
+#signup-form label{
+ font-family:Oswald,sans-serif ;
+ padding-bottom: 3px;
+ font-size: 23px;
+  display: flex;
+  letter-spacing: 2px;
+  flex-direction:column ;
+  color:  #fff;
+}
+#signup-form input{
+width: 30%;
+height: 50px;
+ border-radius: 20px;
+ font-size: 20px;
+ border-width: 0;
+ outline-width: 0;
+ outline-style: none;
+background-color: #fff;
+ margin-bottom: 20px;
+ padding: 0 10px;
+}
+#signup-form input:nth-last-child(1){
+margin-top: 30px;
+}
+#signup-form input:nth-last-child(1):hover{
+background-color: #008000;
+color: #fff;
+}
+
 
 
 
