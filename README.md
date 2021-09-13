@@ -1,8 +1,9 @@
 # Silver Gym
 ## Contents
 1. [Introduction](#Introduction)
-2. [User Experience](#User-Experience)
+2. [User Experience](#User-Experience) 
 - [User Stories](#User-Stories)
+3. [Target](#Target)
 
 
 
@@ -30,3 +31,19 @@ I mainly used HTML5 and CSS3 to make this website.
 - For already joined members,They can login website just with their current Email and Password to see anything.
 - For already joined members,current members can join and cancell their membership with just one form.
 - For already joined members,they can learn weight exercise with just one click on facilities video link.
+
+
+# Target
+- In the website, I Added big background image which just boost people to look after their health.
+ - On the cover Text Everyone can see it's 20% of all the the new members. ithink that's good way to support people to come in Gym.
+
+ ### Skeleton
+ - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages. It's convince user to use this website:
+
+ ### Desktop wireframe
+ ![](assets/readme-file/desktop-1.png)
+
+  ### Mobile wireframe
+ ![](assets/readme-file/Phone.png)
+
+
