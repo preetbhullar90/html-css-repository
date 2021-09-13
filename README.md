@@ -18,11 +18,11 @@
    - [Home Page](#Home-Page) 
    - [Gallery Page](#Gallery-Page)
    - [Signup Page](#Signup-Page)
-   - [Trainners Page](#Trainners-Page)
+   - [Trainers Page](#Trainers-Page)
    - [Facilities Page](#Facilities-Page)
    - [Footer](#Footer) 
 
-6. [Other Features](Other-Featues)
+6. [Other Features](Other-Features)
 
 7. [Feature Left to Implement](#Feature-Left-to-Implement)
 
@@ -62,7 +62,7 @@ ________________________________________________________________________________
 - For new members, I just mentioned about the free car parking 24 hours for gym member only.
 - For new members,I just link navbar and some other blogs with a link to see all about gym,quipments etc.
 - For new members,I linked one blog to the video page to see the exercise and get ideas.
-- For new members, i made a bolg on home page to easily know about trainners.
+- For new members, i made a bolg on home page to easily know about trainers.
 
 ### Current gym members
 - For already joined members,They can login website just with their current Email and Password to see anything.
@@ -106,7 +106,7 @@ ________________________________________________________________________________
 * ## Home Page
 * ## Gallery Page
 * ## Signup Page
-* ## Trainners Page
+* ## Trainers Page
 * ## Facilities Page
 * ## Footer
 
@@ -122,8 +122,8 @@ The gallery page has lots of images about gym equipments etc.Gallery photos divi
 * ### Signup Page
 On the signup page,User will see big signup form with Name,Last Name, Email,Password and submit.This submit form is linked to the home page basically this form is join us form so that's why when user will fill this form it will redirect to home page.The signup has huge hero image as well.Underneath same Address,Email,linkbar like others pages.
 
-* ### Trainners Page
-The trainners page has one big blog,In this blog has four small blogs.Each blog has heading,image and paragraph.The blogs have a white background and each blog shows different different skills like whats is trainners role in your daily routine etc.
+* ### Trainers Page
+The trainers page has one big blog,In this blog has four small blogs.Each blog has heading,image and paragraph.The blogs have a white background and each blog shows different different skills like whats is trainers role in your daily routine etc.
 
 * ### Facilities Page
 The facilities page has lots of videos.With the videos has heading paragraphs.Headings are showing Name of the videos and paragraphs just explaining how to exercises with each gym sets.This videos also divided in columns.On big screen videos shows in one line.But on small screens it's divideed in one column.
@@ -138,13 +138,13 @@ ________________________________________________________________________________
 # Issue Left
 * No any issue left.
 __________________________________________________________________________________________________________________
-# Other Featurs
+# Other Features
 * The logo has linked with home page when User will click on the logo it will take to the home page.
 * In the form page,navigation bar and Email have a hover option when user will mouse over it. It will show diffrent colour. It is easy to understand for user that this is clickable links.
 * The home page blogs has also hover option when visiter will hover on it then images will zoom out.
 __________________________________________________________________________________________________________________
 
-# Featurs left to Implement
+# Features left to Implement
 * Navigation bar with hamburger logo on small screen.The reason why didn't do because i need to use javascript but this is only with HTML5 and CSS3.
 * Signup form and Email should give reponse to user on user Email.But again need javascript and datastroage oiption like mongodb.
 __________________________________________________________________________________________________________________
