@@ -91,7 +91,7 @@ width: 100%;
     bottom: 10em;
     left:50px ;
 }
-#cover-text >h1 {
+#cover-text >h2 {
     padding-bottom: 20px;
       font-size: 170%;
        text-transform: uppercase;
@@ -137,7 +137,7 @@ font-size: 40px;
     object-position: 50% 50%;
     border: 2px solid#fff;
 }
-.gym-about-left h1,.gym-about-center h1,.gym-about-right h1{
+.gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
   text-align: center;
   color: #fff;
   font-family: Oswald, sans-serif;
@@ -188,7 +188,7 @@ font-size: 40px;
    justify-content: center;
    margin-right: 30px;
 }
-#contact-form h1 {
+#contact-form h2 {
     color: #fff;
     font-size: 40px;
     font-family: Oswald, sans-serif;
@@ -253,7 +253,7 @@ margin-top: 40px;
 #contact-navbar a:hover{
     color: #224249;
 }
-#contact-navbar h1{
+#contact-navbar h2{
     color: #fff;
     text-transform: uppercase;
     position: absolute;
@@ -286,7 +286,7 @@ margin-top: 40px;
   padding-left: 15px;
   
 }
-#address h1{
+#address h2{
     line-height: 40px;
     font-size: 20px;
     padding-bottom: 20px;
@@ -442,19 +442,20 @@ color: #fff;
     padding: 0 2em;
     margin-top: 2em;
     background-color: #fff;
-   
-  }
+ }
   
   #trainners-blog{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   } 
-  #trainner{
+
+  #trainner-1,#trainner-2,#trainner-3{
   display: flex;
   margin-bottom: 6em;  
   padding-top: 9em;
   }
+
   .trainner-img{
     border-radius: 50%;
     overflow: hidden;
@@ -498,7 +499,6 @@ color: #fff;
   /* Facilities file container*/
   #facilities-containers{
     padding-left: 14em;
-    
     margin: auto;
     width: 100%;
     position: relative;
@@ -657,7 +657,7 @@ color: #fff;
                 width: 100%;
             }
 
-            #contact-navbar h1{
+            #contact-navbar h2{
                 text-align: center;
                 width: 100%;
                 position: absolute;
@@ -800,7 +800,7 @@ color: #fff;
          height: auto;
         }
 
-        .gym-about-left h1,.gym-about-center h1,.gym-about-right h1{
+        .gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
           font-size: 30px;
         }
 
@@ -812,7 +812,7 @@ color: #fff;
           width: 90%;
         }
 
-         #trainner{
+         #trainner-1,#trainner-2,#trainner-3{
          display: block;
          margin: 0;
         width: 100%;
