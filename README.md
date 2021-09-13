@@ -98,3 +98,46 @@ The facilities page has lots of videos.With the videos has heading paragraphs.He
 * ## Footer
 Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
 __________________________________________________________________________________________________________________
+# Other Featurs
+* The logo has linked with home page when User will click on the logo it will take to the home page.
+* In the form page,navigation bar and Email have a hover option when user will mouse over it. It will show diffrent colour. It is easy to understand for user that this is clickable links.
+* The home page blogs has also hover option when visiter will hover on it then images will zoom out.
+__________________________________________________________________________________________________________________
+
+# Featurs left to Implement
+* Navigation bar with hamburger logo on small screen.The reason why didn't do because i need to use javascript but this is only with HTML5 and CSS3.
+* Signup form and Email should give reponse to user on user Email.But again need javascript and datastroage oiption like mongodb.
+__________________________________________________________________________________________________________________
+
+# Technologies Used
+
+## Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+__________________________________________________________________________________________________________________
+
+# Frameworks, Libraries & Programs Used
+
+ ## Font awesome
+* Fonts awesome just used to import all the icons in the website.
+
+## Google fonts
+* Google fonts used for import the google style fonts in css like  Lato,Oswald and sans-serif.
+
+## Gitpod
+* Gitpod used for write thre code and commit,push in the Github with terminal.
+
+## Github
+* Github used for store the data which pushed by Gitpod.
+
+## Figma
+* Figma was used for create the wireframe of the project before start on the terminal.
+
+## Am I Responsive
+* Am I Responsive was used to see if project is reponsive on all the devices.
+__________________________________________________________________________________________________________________
+
+# Testing
+The testing process can be found [here](assets/testing-file/html.PNG) 
+(assets/testing-file/Tester.PNG)
