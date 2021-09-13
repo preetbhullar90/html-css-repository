@@ -6,10 +6,41 @@
    - [User Stories](#User-Stories)
 
 3. [Target](#Target)
+   - [Skeleton](#skeleton) 
 
 4. [Design](#Design)
+   - [Colour Schema](#Colour-Schema)
+   - [Typography](#Thpography)
+   - [Imagery](#Imagery)
 
 5. [Features](#Features)
+    - [Header](#Header)
+   - [Home Page](#Home-Page) 
+   - [Gallery Page](#Gallery-Page)
+   - [Signup Page](#Signup-Page)
+   - [Trainners Page](#Trainners-Page)
+   - [Facilities Page](#Facilities-Page)
+   - [Footer](#Footer) 
+
+6. [Other Features](Other-Featues)
+
+7. [Feature Left to Implement](#Feature-Left-to-Implement)
+
+8. [Technologies Used](#Technologies-Used)
+   - [Languages Used](#Languages-Used)
+
+9. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
+
+10. [Testing](#Testing)
+
+11. [Deployment](#Deployment)
+
+12. [Make a clone](#Make-a-clone)
+
+13. [Credits](#Credits)
+
+14. [Acknowledgements](#Acknowledgements)
+   
 
 
 
@@ -71,33 +102,33 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 # Feature
 
-* ### [Header](#Header)
-* ### [Home Page](#Home-Page)
-* ### [Gallery Page](#Gallery-Page)
-* ### [Signup Page](#Signup-Page)
-* ### [Trainners Page](#Trainners-Page)
-* ### [Facilities Page](#Facilities-Page)
-* ### [Footer](#Footer) 
-
 * ## Header
+* ## Home Page
+* ## Gallery Page
+* ## Signup Page
+* ## Trainners Page
+* ## Facilities Page
+* ## Footer
+
+* ### Header
 In the header the main logo of the website is on the left site,and navigation links are on the right side on all the pages.But on the medium device like tablets the logo stayed on left side but navigation links comes under the logo in the middle.On the small device like iphone, Anriod phone both logo and navigation bar comes left side with small font size.
 
-* ## Home Page
+* ### Home Page
 The home page has big hero image in the back.Under the hero image there are three blogs,one blog is about facilities other one is about Equipment and the last one for trainners.Each blog has a link with another page.Under the blogs there is a form section for Email,Phone number,Address ,website Email and link bar where user can navigate all the pages,And google map as well.
 
-* ## Gallery Page
+* ### Gallery Page
 The gallery page has lots of images about gym equipments etc.Gallery photos divided in the columns,If user see on the big screen then gallery will show in four columns.On the medium screen gallery will see in three columns.Other all small screens user will see just two columns.If user will mouse over the images then images wil zoom out little bit.
 
-* ## Signup Page
+* ### Signup Page
 On the signup page,User will see big signup form with Name,Last Name, Email,Password and submit.This submit form is linked to the home page basically this form is join us form so that's why when user will fill this form it will redirect to home page.The signup has huge hero image as well.Underneath same Address,Email,linkbar like others pages.
 
-* ## Trainners Page
+* ### Trainners Page
 The trainners page has one big blog,In this blog has four small blogs.Each blog has heading,image and paragraph.The blogs have a white background and each blog shows different different skills like whats is trainners role in your daily routine etc.
 
-* ## Facilities Page
+* ### Facilities Page
 The facilities page has lots of videos.With the videos has heading paragraphs.Headings are showing Name of the videos and paragraphs just explaining how to exercises with each gym sets.This videos also divided in columns.On big screen videos shows in one line.But on small screens it's divideed in one column.
 
-* ## Footer
+* ### Footer
 Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
 __________________________________________________________________________________________________________________
 # Other Featurs
@@ -142,4 +173,57 @@ ________________________________________________________________________________
 
 # Testing
 The testing process can be found [here](assets/videos/testing.md) 
+__________________________________________________________________________________________________________________
 
+# Deployment
+
+## Github Pages
+To deploy github Page from Github Repository,The following option used:
+
+1. [Login](https://github.com/) into Github or [Signup](https://github.com/) for new.
+
+2. Click on your Repository,you can click left side on side bar or go right side click on your profile and select your Repository option.
+
+3. Click on the Setting option which is located top of your Project.
+
+4. Scroll down and In the **GitHub Pages** option click on Check it out here! Link.
+
+5. Under "Source", click the dropdown called "None" and select "Master Branch". 
+
+6. Refresh your page on top left corner with circle button.
+
+7. Scroll back down in  **GitHub Pages** and again click on the  Check it out here! Link now published site link in the "GitHub Pages" section. 
+__________________________________________________________________________________________________________________
+
+# Make a Clone
+
+1. [Login](https://github.com/) into Github or [Signup](https://github.com/) for new.
+
+2. Click on **Your Repository** option select your project then click on the **code** dropdown menu.
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link. 
+
+4. In your local IDE open the Git Bash terminal.
+
+5. Change the current working directory to the location where you want the cloned directory to be made. 
+
+6. Type git clone, and then paste the URL you copied in Step 3. 
+
+git clone  https://github.com/USERNAME/REPOSITORY
+
+7. Press Enter. Your local clone will be created. 
+__________________________________________________________________________________________________________________
+
+# Credit
+
+### Content
+* All content Ideas took from gym wikipedia.
+
+### Media
+* All the videos and images download free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/).
+__________________________________________________________________________________________________________________
+
+# Acknowledgements
+* Especially i would like to thanks my wife,Who helped me to give me some ideas and she motivated me to finish this project.
+* Secondly i would like to thanks my mentor seun,she helped me in whole process of the project.
+* Lastly i would appreciated to W3School website where i got lots of ideas.
