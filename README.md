@@ -131,6 +131,13 @@ The facilities page has lots of videos.With the videos has heading paragraphs.He
 * ### Footer
 Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
 __________________________________________________________________________________________________________________
+
+# Bugs
+* I had problem with make a blog in the home page. So i got help from [stackflow](https://stackoverflow.com/) and [W3school](https://www.w3schools.com/) to fix it.
+
+# Issue Left
+* No any issue left.
+__________________________________________________________________________________________________________________
 # Other Featurs
 * The logo has linked with home page when User will click on the logo it will take to the home page.
 * In the form page,navigation bar and Email have a hover option when user will mouse over it. It will show diffrent colour. It is easy to understand for user that this is clickable links.
