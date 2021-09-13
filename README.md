@@ -9,6 +9,8 @@
 
 4. [Design](#Design)
 
+5. [Features](#Features)
+
 
 
 
