@@ -139,5 +139,5 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 
 # Testing
-The testing process can be found [here](assets/testing-file/html.PNG) 
-(assets/testing-file/Tester.PNG)
+The testing process can be found [here](assets/videos/testing.md) 
+
