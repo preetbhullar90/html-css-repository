@@ -1,10 +1,13 @@
 # Silver Gym
 ## Contents
 1. [Introduction](#Introduction)
+
 2. [User Experience](#User-Experience) 
-- [User Stories](#User-Stories)
+   - [User Stories](#User-Stories)
+
 3. [Target](#Target)
 
+4. [Design](#Design)
 
 
 
@@ -12,13 +15,14 @@
 
 
 
+__________________________________________________________________________________________________________________
 ## Introduction
 
 Silver Gym website is designed for gym lover.This website allow to people come in the gym for exercise, and spend their leisure time.
 This webside mainly focusing on all body exerecise with huge number of equipment.Silver Gym website encourage people to come in gym all the time and keep your body healthy and strong.
 Silver Gym website is my first Milestone Project out of five and it s part of Full Stack Web development course at thr Code Institute.
 I mainly used HTML5 and CSS3 to make this website.
-
+__________________________________________________________________________________________________________________
 # User Experience
 ## User Stories
 ### New members
@@ -31,7 +35,7 @@ I mainly used HTML5 and CSS3 to make this website.
 - For already joined members,They can login website just with their current Email and Password to see anything.
 - For already joined members,current members can join and cancell their membership with just one form.
 - For already joined members,they can learn weight exercise with just one click on facilities video link.
-
+__________________________________________________________________________________________________________________
 
 # Target
 - In the website, I Added big background image which just boost people to look after their health.
@@ -45,5 +49,52 @@ I mainly used HTML5 and CSS3 to make this website.
 
   ### Mobile wireframe
  ![](assets/readme-file/Phone.png)
+__________________________________________________________________________________________________________________
+ # Design
 
+ ### Colour Schema
+ * I used two colours for background and content that is white, dark gray and little bit green used for hover on it and black for paragraph.
+* I chosed all the colour from [W3school](https://www.w3schools.com/colors/colors_picker.asp) website.
 
+### Typography
+* The font i chosed from [Google font](https://fonts.google.com/) website and linked it with my Css file.
+* I used three font style Lato,Oswald and sans-serif.
+* Lato font used only for paragraph.
+* Oswald used only for headings.
+* Sans-serif font just for backup like some time if you don't give right link to css then your Goole font dosn't work but sans-serif always works.
+
+### Imagery
+* The imagery play very important role in all the website.I used so many photos in this website it's showed all the visiter to what we have in the Gym. The images in this website give positive energy to visiter and force them to click signup button. 
+* All the images downloaded free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/) website.
+__________________________________________________________________________________________________________________
+# Feature
+
+* ### [Header](#Header)
+* ### [Home Page](#Home-Page)
+* ### [Gallery Page](#Gallery-Page)
+* ### [Signup Page](#Signup-Page)
+* ### [Trainners Page](#Trainners-Page)
+* ### [Facilities Page](#Facilities-Page)
+* ### [Footer](#Footer) 
+
+* ## Header
+In the header the main logo of the website is on the left site,and navigation links are on the right side on all the pages.But on the medium device like tablets the logo stayed on left side but navigation links comes under the logo in the middle.On the small device like iphone, Anriod phone both logo and navigation bar comes left side with small font size.
+
+* ## Home Page
+The home page has big hero image in the back.Under the hero image there are three blogs,one blog is about facilities other one is about Equipment and the last one for trainners.Each blog has a link with another page.Under the blogs there is a form section for Email,Phone number,Address ,website Email and link bar where user can navigate all the pages,And google map as well.
+
+* ## Gallery Page
+The gallery page has lots of images about gym equipments etc.Gallery photos divided in the columns,If user see on the big screen then gallery will show in four columns.On the medium screen gallery will see in three columns.Other all small screens user will see just two columns.If user will mouse over the images then images wil zoom out little bit.
+
+* ## Signup Page
+On the signup page,User will see big signup form with Name,Last Name, Email,Password and submit.This submit form is linked to the home page basically this form is join us form so that's why when user will fill this form it will redirect to home page.The signup has huge hero image as well.Underneath same Address,Email,linkbar like others pages.
+
+* ## Trainners Page
+The trainners page has one big blog,In this blog has four small blogs.Each blog has heading,image and paragraph.The blogs have a white background and each blog shows different different skills like whats is trainners role in your daily routine etc.
+
+* ## Facilities Page
+The facilities page has lots of videos.With the videos has heading paragraphs.Headings are showing Name of the videos and paragraphs just explaining how to exercises with each gym sets.This videos also divided in columns.On big screen videos shows in one line.But on small screens it's divideed in one column.
+
+* ## Footer
+Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
+__________________________________________________________________________________________________________________
