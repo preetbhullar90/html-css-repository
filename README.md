@@ -22,8 +22,8 @@
 10. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
 
 11. [Testing](#Testing)
-   
-      - [Testing.md](TESTING.md)
+
+    - [Testing.md](assets/testing-file/testing.md)
 
 12. [Deployment](#Deployment)
 
@@ -40,14 +40,16 @@
 
 
 
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 ## Introduction
 
 Silver Gym website is designed for gym lover.This website allow to people come in the gym for exercise, and spend their leisure time.
 This webside mainly focusing on all body exerecise with huge number of equipment.Silver Gym website encourage people to come in gym all the time and keep your body healthy and strong.
 Silver Gym website is my first Milestone Project out of five and it s part of Full Stack Web development course at thr Code Institute.
 I mainly used HTML5 and CSS3 to make this website.
-__________________________________________________________________________________________________________________
+
+ [Go Top](#Silver-Gym)
+________________________________________________________________________________________________________________
 # User Experience
 ## User Stories
 ### New members
@@ -60,7 +62,9 @@ ________________________________________________________________________________
 - For already joined members,They can login website just with their current Email and Password to see anything.
 - For already joined members,current members can join and cancell their membership with just one form.
 - For already joined members,they can learn weight exercise with just one click on facilities video link.
-__________________________________________________________________________________________________________________
+
+[Go Top](#Silver-Gym)
+_______________________________________________________________________________________________________________
 
 # Target
 - In the website, I Added big background image which just boost people to look after their health.
@@ -74,7 +78,9 @@ ________________________________________________________________________________
 
   ### Mobile wireframe
  ![](assets/readme-file/Phone.png)
-__________________________________________________________________________________________________________________
+
+ [Go Top](#Silver-Gym)
+________________________________________________________________________________________________________________
  # Design
 
  ### Colour Schema
@@ -91,7 +97,9 @@ ________________________________________________________________________________
 ### Imagery
 * The imagery play very important role in all the website.I used so many photos in this website it's showed all the visiter to what we have in the Gym. The images in this website give positive energy to visiter and force them to click signup button. 
 * All the images downloaded free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/) website.
-__________________________________________________________________________________________________________________
+
+ [Go Top](#Silver-Gym)
+________________________________________________________________________________________________________________
 # Features
 
 * ## Header
@@ -122,24 +130,26 @@ The facilities page has lots of videos.With the videos has heading paragraphs.He
 
 * ### Footer
 Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
-__________________________________________________________________________________________________________________
+
+ [Go Top](#Silver-Gym)
+________________________________________________________________________________________________________________
 
 # Bugs
 * I had problem with make a blog in the home page. So i got help from [stackflow](https://stackoverflow.com/) and [W3school](https://www.w3schools.com/) to fix it.
 
 # Issue Left
 * No any issue left.
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 # Other Features
 * The logo has linked with home page when User will click on the logo it will take to the home page.
 * In the form page,navigation bar and Email have a hover option when user will mouse over it. It will show diffrent colour. It is easy to understand for user that this is clickable links.
 * The home page blogs has also hover option when visiter will hover on it then images will zoom out.
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Features left to Implement
 * Navigation bar with hamburger logo on small screen.The reason why didn't do because i need to use javascript but this is only with HTML5 and CSS3.
 * Signup form and Email should give reponse to user on user Email.But again need javascript and datastroage oiption like mongodb.
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Technologies Used
 
@@ -147,7 +157,7 @@ ________________________________________________________________________________
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Frameworks, Libraries & Programs Used
 
@@ -168,11 +178,13 @@ ________________________________________________________________________________
 
 ## Am I Responsive
 * Am I Responsive was used to see if project is reponsive on all the devices.
-__________________________________________________________________________________________________________________
+
+ [Go Top](#Silver-Gym)
+________________________________________________________________________________________________________________
 
 # Testing
-The testing process can be found [here](assets/testing-file/TESTING.md) 
-__________________________________________________________________________________________________________________
+The testing process can be found [here](assets/testing-file/testing.md) 
+________________________________________________________________________________________________________________
 
 # Deployment
 
@@ -192,7 +204,7 @@ To deploy github Page from Github Repository,The following option used:
 6. Refresh your page on top left corner with circle button.
 
 7. Scroll back down in  **GitHub Pages** and again click on the  Check it out here! Link now published site link in the "GitHub Pages" section. 
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Make a Clone
 
@@ -211,7 +223,7 @@ ________________________________________________________________________________
 git clone  https://github.com/USERNAME/REPOSITORY
 
 7. Press Enter. Your local clone will be created. 
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Credit
 
@@ -220,9 +232,11 @@ ________________________________________________________________________________
 
 ### Media
 * All the videos and images download free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/).
-__________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________
 
 # Acknowledgements
 * Especially i would like to thanks my wife,Who helped me to give me some ideas and she motivated me to finish this project.
 * Secondly i would like to thanks my mentor seun,she helped me in whole process of the project.
 * Lastly i would appreciated to W3School website where i got lots of ideas.
+
+ [Go Top](#Silver-Gym)
