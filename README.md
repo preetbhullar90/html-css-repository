@@ -18,7 +18,7 @@
 
 9. [Technologies Used](#Technologies-Used)
   
-10. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
+10. [Frameworks Libraries and Programs Used](#Frameworks-Libraries-and-Programs-Used)   
 
 11. [Testing](#Testing)
 
@@ -160,7 +160,7 @@ ________________________________________________________________________________
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 ________________________________________________________________________________________________________________
 
-# Frameworks, Libraries & Programs Used
+# Frameworks Libraries and Programs Used
 
  ## Font awesome
 * Fonts awesome just used to import all the icons in the website.
