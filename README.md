@@ -14,11 +14,11 @@
 
 7. [Other Features](Other-Features)
 
-8. [Features Left to Implement](#Features-Left-to-Implement)
+8. [Features Left to Implement](#Feature-Left-to-Implement)
 
 9. [Technologies Used](#Technologies-Used)
   
-10. [Framework Libraries & Programs Used](#Framework-Libraries-&-Programs-Used)   
+10. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
 
 11. [Testing](#Testing)
 
@@ -146,7 +146,7 @@ ________________________________________________________________________________
 * The home page blogs has also hover option when visiter will hover on it then images will zoom out.
 ________________________________________________________________________________________________________________
 
-# Framework Libraries & Programs Used
+# Feature Left to Implement
 
 * Navigation bar with hamburger logo on small screen.The reason why didn't do because i need to use javascript but this is only with HTML5 and CSS3.
 * Signup form and Email should give reponse to user on user Email.But again need javascript and datastroage oiption like mongodb.
