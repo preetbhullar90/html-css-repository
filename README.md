@@ -12,7 +12,7 @@
 
 6. [Bugs](#Bugs) 
 
-7. [Other Features](Other-Features)
+7. [Other Features](#Other-Features)
 
 8. [Features Left to Implement](#Feature-Left-to-Implement)
 
