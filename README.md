@@ -22,6 +22,8 @@
 10. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
 
 11. [Testing](#Testing)
+   
+      - [Testing.md](TESTING.md)
 
 12. [Deployment](#Deployment)
 
@@ -169,7 +171,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 
 # Testing
-The testing process can be found [here](assets/videos/testing.md) 
+The testing process can be found [here](assets/testing-file/TESTING.md) 
 __________________________________________________________________________________________________________________
 
 # Deployment
