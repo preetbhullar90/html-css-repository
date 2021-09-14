@@ -3,43 +3,33 @@
 1. [Introduction](#Introduction)
 
 2. [User Experience](#User-Experience) 
-   - [User Stories](#User-Stories)
-
+   
 3. [Target](#Target)
-   - [Skeleton](#skeleton) 
-
+   
 4. [Design](#Design)
-   - [Colour Schema](#Colour-Schema)
-   - [Typography](#Thpography)
-   - [Imagery](#Imagery)
-
+  
 5. [Features](#Features)
-    - [Header](#Header)
-   - [Home Page](#Home-Page) 
-   - [Gallery Page](#Gallery-Page)
-   - [Signup Page](#Signup-Page)
-   - [Trainers Page](#Trainers-Page)
-   - [Facilities Page](#Facilities-Page)
-   - [Footer](#Footer) 
 
-6. [Other Features](Other-Features)
+6. [Bugs](#Bugs) 
 
-7. [Feature Left to Implement](#Feature-Left-to-Implement)
+7. [Other Features](Other-Features)
 
-8. [Technologies Used](#Technologies-Used)
-   - [Languages Used](#Languages-Used)
+8. [Features Left to Implement](#Features-Left-to-Implement)
 
-9. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
+9. [Technologies Used](#Technologies-Used)
+  
 
-10. [Testing](#Testing)
+10. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)   
 
-11. [Deployment](#Deployment)
+11. [Testing](#Testing)
 
-12. [Make a clone](#Make-a-clone)
+12. [Deployment](#Deployment)
 
-13. [Credits](#Credits)
+13. [Make a clone](#Make-a-clone)
 
-14. [Acknowledgements](#Acknowledgements)
+14. [Credit](#Credit)
+
+15. [Acknowledgements](#Acknowledgements)
    
 
 
@@ -100,7 +90,7 @@ ________________________________________________________________________________
 * The imagery play very important role in all the website.I used so many photos in this website it's showed all the visiter to what we have in the Gym. The images in this website give positive energy to visiter and force them to click signup button. 
 * All the images downloaded free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/) website.
 __________________________________________________________________________________________________________________
-# Feature
+# Features
 
 * ## Header
 * ## Home Page
