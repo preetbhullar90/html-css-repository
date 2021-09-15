@@ -450,7 +450,7 @@ color: #fff;
   width: 100%;
   } 
 
-  #trainer-1,#trainer-2,#trainer-3{
+  #trainer-1,#trainer-2,#trainer-3,#trainer-4{
   display: flex;
   margin-bottom: 6em;  
   padding-top: 9em;
@@ -812,7 +812,7 @@ color: #fff;
           width: 90%;
         }
 
-         #trainer-1,#trainer-2,#trainer-3{
+         #trainer-1,#trainer-2,#trainer-3,#trainer-4{
          display: block;
          margin: 0;
         width: 100%;
