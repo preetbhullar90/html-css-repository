@@ -42,35 +42,44 @@
 ________________________________________________________________________________________________________________
 ## Introduction
 
-Silver Gym website is designed for gym lover.This website allow to people come in the gym for exercise, and spend their leisure time.
-This webside mainly focusing on all body exerecise with huge number of equipment.Silver Gym website encourage people to come in gym all the time and keep your body healthy and strong.
+The Silver Gym website is designed for individuals searching for a high qaulity gym. The purpose of this website is to showcase the facilities offered at this gym as well as the type of experience you can expect while using this gym.  The features of this website such as the gallery are aimed at motivating the customer to use silver gym for their fitness goals. 
+This website mainly focuses on informing potential customers about the facilities offered at this gym and what they can expect by joining. The page about trainers informs and motivates potential customers about the benifits they can get by joining and having access to highly qualified personal trainers. The Silver Gym website encourages people to join the gym to help keep their body healthy and strong.
 Silver Gym website is my first Milestone Project out of five and it s part of Full Stack Web development course at thr Code Institute.
 I mainly used HTML5 and CSS3 to make this website.
 
  [Go Top](#Silver-Gym)
 ________________________________________________________________________________________________________________
 # User Experience
+
+## User Demographic
+* People searching for a new gym.
+
+* People looking to chanage their current gym.
+
+* People interested in fitness.
+
 ## User Stories
 ### New members
-- For new members, I just mentioned about the free car parking 24 hours for gym member only.
+- For new members, I have included information about a free 24 hours car parking for gym members.
 - For new members,I just link navbar and some other blogs with a link to see all about gym,quipments etc.
 - For new members,I linked one blog to the video page to see the exercise and get ideas.
 - For new members, i made a bolg on home page to easily know about trainers.
 
 ### Current gym members
-- For already joined members,They can login website just with their current Email and Password to see anything.
-- For already joined members,current members can join and cancell their membership with just one form.
-- For already joined members,they can learn weight exercise with just one click on facilities video link.
+- For current gym members,They can login to the website  with their current Email and Password to see anything in their account.
+- For current gym members,they can extend,alter and cancel their membership with just one form.
+- For current gym members,they can learn  how to use the quipent correctly by watching the videos available on the facilities video link.
 
 [Go Top](#Silver-Gym)
 _______________________________________________________________________________________________________________
 
 # Target
-- In the website, I Added big background image which just boost people to look after their health.
- - On the cover Text Everyone can see it's 20% of all the the new members. ithink that's good way to support people to come in Gym.
+- On the website home page I  have added a big background image to try and motivate people to push towards their goals and look after their health.
+- On the Home Page Everyone can see it's 20% off  for all  new members. I think this is a good way to support and encourage people to come and join silver gym.
+
 
  ### Skeleton
- - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages. It's convince user to use this website:
+ - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages.To convience user to use this website:
  
 
  ### Desktop wireframe
@@ -84,19 +93,20 @@ ________________________________________________________________________________
  # Design
 
  ### Colour Schema
- * I used two colours for background and content that is white, dark gray and little bit green used for hover on it and black for paragraph.
-* I chosed all the colour from [W3school](https://www.w3schools.com/colors/colors_picker.asp) website.
+ * I used two colours for the background and content, which are white and dark grey. I have also used a small amount of green for hover and black for paragraph.
+* I chose all the colours I used from [W3school](https://www.w3schools.com/colors/colors_picker.asp) website.
 
 ### Typography
-* The font i chosed from [Google font](https://fonts.google.com/) website and linked it with my Css file.
+* I selected the font I used  from the [Google font](https://fonts.google.com/) website and linked it with my Css file.
 * I used three font style Lato,Oswald and sans-serif.
-* Lato font used only for paragraph.
-* Oswald used only for headings.
-* Sans-serif font just for backup like some time if you don't give right link to css then your Goole font dosn't work but sans-serif always works.
+* I have used Lato only for the paragraphs.
+* I have used Oswald for the headings.
+* I have used the font Sans-serif for backup in instances where if correct link isnt provided to the css3 file then your Goole font will not work but sans-serif always works.
 
 ### Imagery
-* The imagery play very important role in all the website.I used so many photos in this website it's showed all the visiter to what we have in the Gym. The images in this website give positive energy to visiter and force them to click signup button. 
-* All the images downloaded free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/) website.
+* The images used in this website play a very important role in the user experience of the website.
+* The images shown on the website have been selected to motivate the potential customer and encourage them to join the gym. They have also been included to educate new gym users on basic excersie tecniques.
+* All the images are downloaded free from the [pexels](https://www.pexels.com/search/gym%20and%20fitness/) website.
 
  [Go Top](#Silver-Gym)
 ________________________________________________________________________________________________________________
