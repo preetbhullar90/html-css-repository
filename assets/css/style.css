@@ -58,7 +58,6 @@ body{
 /* website logo and logo link*/
 
 #logo,#logo a{
-  
     color:#224249;
     width: 50%;
     padding-left: 15px;
@@ -73,6 +72,7 @@ body{
 
 
 /*  Hero Image for home page */
+
 #hero-image{
     width: 100%;
     overflow: hidden;
@@ -130,12 +130,13 @@ font-size: 40px;
 }
 .gym-about-left,.gym-about-center,.gym-about-right{
     width:30em ;
-   padding:30px 20px;
+    padding:80px 30px 10px 30px;
     margin: 30px auto;
     background-color: #1a1a18;
     box-shadow: 5px 5px 5px #7a7878;
     transition: transform .2s;
 }
+
 .gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
     transform: scale(1.1);
     
@@ -147,6 +148,7 @@ font-size: 40px;
     object-fit: cover;
     object-position: 50% 50%;
     border: 2px solid#fff;
+    margin-bottom: 30px;
 }
 .gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
   text-align: center;
@@ -229,6 +231,8 @@ font-size: 40px;
     width: 100px;
     margin-top: 10px;
     font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 #contact form input:nth-last-child(1):hover{
 background-color: #008000;
@@ -243,16 +247,19 @@ color: #fff;
     padding-top: 70px;
     justify-content: left;
 }
+
 #contact-navbar ul{
 text-align: center;
 list-style: none;
 position: relative;
 margin-top: 40px;
 }
+
 #contact-navbar li{
     margin: 1px auto;
     padding: 10px 0;
 }
+
 #contact-navbar li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -261,13 +268,18 @@ margin-top: 40px;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
 }
+
 #contact-navbar a:hover{
-    color: #224249;
+    color: #0692f0;
 }
+
 #contact-navbar h2{
     color: #fff;
     text-transform: uppercase;
     position: absolute;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px
 }
 
 /*  Gym opning time in contact form */
