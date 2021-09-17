@@ -458,6 +458,7 @@ color: #fff;
     width: 100%;
     position: relative;
     padding: 0px 2em;
+   
  }
   
   #trainers-blog{
@@ -465,10 +466,10 @@ color: #fff;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 9em;
+    padding-top: 9em;
   } 
 
-  #trainer-1,#trainer-2,#trainer-3,#trainer-4{
+  #trainer{
     display: flex;
          flex-direction: column;
 }
@@ -608,7 +609,7 @@ color: #fff;
         /* trainers file blog */
 
         #trainers-blog{
-            margin-top: 13em;
+            padding-top: 13em;
          }
         } 
 
@@ -841,12 +842,12 @@ color: #fff;
            }
 
            #trainers-blog{
-            margin-top: 2em;
+            padding-top: 2em;
         }
          
         /* Trainers file Heading Images and paragrapgh section */
 
-         #trainer-1,#trainer-2,#trainer-3,#trainer-4{
+         #trainer{
          display: block;
          margin: 0;
         width: 100%;
@@ -854,7 +855,9 @@ color: #fff;
         }
 
         #trainer img{
+          
         margin: auto;
+       
          }
 
         #trainer h2,#trainer p{
