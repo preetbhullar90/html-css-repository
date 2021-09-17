@@ -218,6 +218,7 @@ font-size: 40px;
   padding:10px 5px;
   margin-bottom: 20px;
   margin-top: 5px;
+  padding-left: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
