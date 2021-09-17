@@ -26,20 +26,6 @@ body{
     z-index: 2; 
 }
 
-#logo,#logo a{
-  
-   color:#224249;
-   width: 50%;
-   padding-left: 15px;
-   font-size: 50px;
-   text-decoration: none;
-   padding-top: 9px;
-}
-
-#logo, #link-bar{
-    line-height: 50px;
-}
-
 #link-bar{
  display: inline-block;
  width: 100%;
@@ -49,13 +35,18 @@ body{
  margin: 10px;
 }
 
-#link-bar li,#link-bar li a{
-    margin-right: 15px;
-    list-style: none;
-    text-decoration: none;
-    color:#224249;
-   
+#link-bar li{
+  display: inline-block;
+  margin: 0 30px;
+  list-style: none;
+  text-decoration: none;
+  color:#224249;
 }
+#link-bar a{
+  color:#224249;
+  text-decoration: none;
+}
+
 #link-bar a:hover{
     border-bottom: 2px solid #353434;
 }
@@ -67,12 +58,18 @@ body{
 /* website logo and logo link*/
 
 #logo,#logo a{
+  
     color:#224249;
     width: 50%;
-  padding-left: 15px;
+    padding-left: 15px;
     font-size: 50px;
     text-decoration: none;
-}
+    padding-top: 9px;
+ }
+ 
+ #logo, #link-bar{
+     line-height: 50px;
+ }
 
 
 /*  Hero Image for home page */
@@ -83,9 +80,8 @@ body{
 }
 #image{
     background: url("../images/herophoto.jpg") center center /cover no-repeat;  
-    
     width: 100%;
-    height: 600px; 
+    height: 800px; 
 }
 
 
