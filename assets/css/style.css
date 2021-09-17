@@ -461,62 +461,52 @@ color: #fff;
  }
   
   #trainers-blog{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 9em;
   } 
 
   #trainer-1,#trainer-2,#trainer-3,#trainer-4{
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 2em;
-    margin:30px  0;
-    padding-top: 60px;
-   font-family: Oswald, sans-serif;
+    display: flex;
+         flex-direction: column;
 }
 
-  .trainer-img{
-    border-radius: 50%;
+#trainer img{
     overflow: hidden;
     position: relative;
     width: 20em;
     height: 20em;
-    margin: 0 2.5em;
+    margin: auto;
+    border-radius: 50%;
   }
 
-  .trainer-img img{
-      width: 20em;
-      height: 20em;
+  #trainer h2{
+     text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
   }
-  .trainer-text{
-      color: #fff;
+
+  #trainer p{
+    color: #fff;
     display: flex;
     width: 20em;
     height: 20em;
     margin: 0 2.5em;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 0;
- }
-
-  .trainer-title{
-   font-family:Oswald,sans-serif ;
-    font-size: 35px;
-    color: #fff;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 2em;
-    margin: 0;
-    padding: 20px 0 0 0;
-   letter-spacing: 3px;
-  }
-
-  .trainer-subtitle{
-    margin-top: 2em;
+    padding: 10px 0;
+    font-family: Lato, sans-serif;
     letter-spacing: 2px;
-    font-size: 17px;
-  }
-
+    text-align: center;
+ }
 
   /* Facilities file container*/
   #facilities-containers{
@@ -614,6 +604,12 @@ color: #fff;
             column-count: 3;
             padding-top: 9em;
         }
+
+        /* trainers file blog */
+
+        #trainers-blog{
+            margin-top: 13em;
+         }
         } 
 
 
@@ -729,9 +725,11 @@ color: #fff;
            #signup-form input:nth-last-child(1){
                width: 15%;
            }
-         
+
+         /* trainers file blog */
+
          #container{
-             padding-top: 15em;
+             padding-top: 10em;
          }
         
          }
@@ -762,22 +760,6 @@ color: #fff;
         #link-bar li{
             margin:0 5px 0 5px;
        }
-
-       /* Trainners file container */
-
-        #container{
-         margin: auto;
-        
-        }
-
-        .trainer-text{
-          padding-left: 10px;
-        }
-
-        .trainer-subtitle p{
-         text-align: justify;
-         padding-bottom: 20px;
-        }
          
         /* Address and sitemap Section */
 
@@ -850,6 +832,17 @@ color: #fff;
         #signup-form input:nth-last-child(1){
             width: 30%;
         }
+
+          /* Trainners file container */
+
+          #container{
+            margin: auto;
+           
+           }
+
+           #trainers-blog{
+            margin-top: 2em;
+        }
          
         /* Trainers file Heading Images and paragrapgh section */
 
@@ -860,19 +853,11 @@ color: #fff;
         padding-bottom: 30px;
         }
 
-        #trainner:nth-last-child(1){
-            margin: 80px auto;
-        }
-
-        .trainer-img{
+        #trainer img{
         margin: auto;
          }
 
-        .trainer-img img{
-            width: 100%;
-            }
-
-        .trainer-title,.trainer-text,.trainer-subtitle{
+        #trainer h2,#trainer p{
             width: 90%;
             text-align: center;
             margin: auto;
