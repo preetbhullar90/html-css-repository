@@ -582,6 +582,13 @@ color: #fff;
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media  screen and (max-width:1200px){
+
+        #navbar{
+            display: flex;
+            flex-direction: column;
+            line-height: 40px;
+        }
+
         #gym-about{
             width: 100%;
             margin: 30px auto;
@@ -605,18 +612,11 @@ color: #fff;
 
         /* Medium devices reponsive 750px and up) */
         @media  screen and (max-width:950px){
-            #navbar{
-                display: flex;
-                flex-direction: column;
-                line-height: 40px;
-            }
-
-            #logo a{
-                padding-top: 5px;
-                font-size: 40px;
-            }
+           
             #link-bar{
-                margin-left: 110px;
+                line-height: 50px;
+                width: 100%;
+                text-align: left;
             }
 
             #cover-text{
@@ -635,13 +635,14 @@ color: #fff;
             .gym-about-left,.gym-about-center,.gym-about-right {
               width: 100%;
              margin: 20px auto;
+             padding: 40px 0;
              transition: transform .2s;
            }
 
            .gym-about-left img,.gym-about-center img,.gym-about-right img {
              border-radius: 0;
              width: 80%;
-             margin:auto;
+             margin:40px;
              object-fit: cover;
              object-position: 50% 50%;
            }
@@ -681,13 +682,14 @@ color: #fff;
                 width: 100%;
                 position: absolute;
                 padding-bottom: 9em;
+                margin: 10px auto 0px auto;
             }
 
             #time{
                 width: 100%;
                 text-align: center;
                 height: 10%;
-                margin: auto;
+                margin: 50px auto;
                 padding-top: 0;
             }
 
@@ -696,14 +698,10 @@ color: #fff;
               width: 100%;
               text-align: center;
               height: 10%;
-              margin: auto;
+              margin: 50px auto;
               padding-top: 0;
             }
-
-            #mail-phone a{
-                display:inline-block;
-                text-align: center;
-            }
+            /* Gallery file */
 
           #photos-gallery{
             width: 100%;
@@ -711,23 +709,33 @@ color: #fff;
            column-count: 2;
            padding: 0 10px;
            }
+           
+
+           /* signup File Section */
 
           #signup-form input{
              width: 70%; 
             margin-bottom: 30px;
            }
+
+           #signup-form{
+            padding-bottom: 20px;
+        }
+           #signup-form input:nth-last-child(1){
+               width: 15%;
+           }
+         
+         #container{
+             padding-top: 15em;
+         }
+        
          }
 
 
          /* Extra small devices phones, 750px and down */
          @media  screen and (max-width:750px){
-            #navbar{
-            width: 100%;
-             display: flex;
-            flex-direction: column;
-             margin: 0;
-             line-height: 40px;
-             }
+             
+            /* Logo and logo link */
 
             #logo a,#logo h1,#logo{
                 width: 100%;
@@ -735,29 +743,25 @@ color: #fff;
                 padding-top: 5px;
                 font-size: 40px;
             }
+             /* Navbar in the header */
 
             #link-bar{
-             align-items: center;
-            margin: auto;
-             font-size: 15px;
-            padding: 0;
-             padding-left: 30px;
+                line-height: 45px;
+                width: 100%;
+                text-align: left;
+                margin: 0;
+                padding: 0 5px 0 15px;
         }
 
         #link-bar li{
-            padding: 0;
-            margin: 0;
+            margin:0 5px 0 5px;
        }
 
-        #link-bar a{
-        align-items: center;
-         margin: 0;
-         padding: 0;
-        }
+       /* Trainners file container */
 
         #container{
          margin: auto;
-         padding: 0;
+        
         }
 
         .trainer-text{
@@ -766,7 +770,10 @@ color: #fff;
 
         .trainer-subtitle p{
          text-align: justify;
+         padding-bottom: 20px;
         }
+         
+        /* Address and sitemap Section */
 
         #contact{
             display:block;
@@ -788,18 +795,16 @@ color: #fff;
           width: 100%;
           text-align: center;
          align-items: center;
-        } 
-
-        #mail-phone{
-            margin-top: 20px;
         }
-        #mail-phone a{
-           font-size: 30px;
+        
+        #time{
+            margin-top: 80px;
         }
 
         #cover-text{
             left: 5px;
             bottom: 5px;
+            height: auto;
         }
 
         #gym-about{
@@ -815,26 +820,41 @@ color: #fff;
         }
 
         .gym-about-left img,.gym-about-center img,.gym-about-right img{
-        align-items: center;
-         height: auto;
+            margin: auto;
+            align-items: center;
         }
 
         .gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
           font-size: 30px;
+          padding-top: 10px;
         }
 
         .gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
             transform: scale(1.1);
         }
+         
+        /* Signup file join us section */ 
 
         #signup-form input{
           width: 90%;
         }
-
+        #signup-form{
+            padding-bottom: 10px;
+        }
+        #signup-form input:nth-last-child(1){
+            width: 30%;
+        }
+         
+        /* Trainers file Heading Images and paragrapgh section */
+        
          #trainer-1,#trainer-2,#trainer-3,#trainer-4{
          display: block;
          margin: 0;
         width: 100%;
+        }
+
+        #trainner:nth-last-child(1){
+            margin: 80px auto;
         }
 
         .trainer-img{
