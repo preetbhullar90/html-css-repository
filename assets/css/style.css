@@ -22,14 +22,33 @@ body{
     background-color: #e4d8d8;
     font-family:Oswald,sans-serif ;
     letter-spacing: 4px;
+    position: fixed;                 
+    z-index: 2; 
 }
+
+#logo,#logo a{
+  
+   color:#224249;
+   width: 50%;
+   padding-left: 15px;
+   font-size: 50px;
+   text-decoration: none;
+   padding-top: 9px;
+}
+
+#logo, #link-bar{
+    line-height: 50px;
+}
+
 #link-bar{
-    display: flex;
-    justify-content:space-evenly;
-    width: 50%;
-   padding-right: 30px;
-   font-size: 20px;
+ display: inline-block;
+ width: 100%;
+ font-size: 110%;
+ text-align: end;
+ font-size: 20px;
+ margin: 10px;
 }
+
 #link-bar li,#link-bar li a{
     margin-right: 15px;
     list-style: none;
