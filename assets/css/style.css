@@ -13,10 +13,6 @@ body{
     font-weight: 300;
 }
 
-#main-header{
-width: 100%;
-}
-
 /*  navigation bar */
 #navbar{
     display: flex;
