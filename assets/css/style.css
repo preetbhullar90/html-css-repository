@@ -228,12 +228,12 @@ font-size: 40px;
    border-style: none;
 }
 #contact form input:nth-last-child(1){
-   align-items: center;
     width: 100px;
     margin-top: 10px;
     font-size: 17px;
     text-transform: capitalize;
     cursor: pointer;
+   
 }
 #contact form input:nth-last-child(1):hover{
 background-color: #008000;
