@@ -11,6 +11,7 @@ body{
     font-family: Lato, sans-serif;
     background-color:rgb(66, 58, 58);
     font-weight: 300;
+  
 }
 
 /*  navigation bar */
@@ -24,6 +25,7 @@ body{
     letter-spacing: 4px;
     position: fixed;                 
     z-index: 2; 
+    
 }
 
 #link-bar{
@@ -694,7 +696,7 @@ color: #fff;
                 width: 100%;
                 position: absolute;
                 padding-bottom: 9em;
-                margin: 10px auto 0px auto;
+               
             }
 
             #time{
@@ -788,16 +790,21 @@ color: #fff;
         #contact-form{
             width: auto;
         }
+        #contact-form form{
+            margin-bottom: 30px;
+          
+        }
 
         #contact-navbar{
             width: 100%;
             text-align: center;
         }
 
-         #contact-navbar ul,#contact-navbar h1,#address,#mail-phone,#time{
+         #contact-navbar ul,#contact-navbar h2,#address,#time{
           width: 100%;
           text-align: center;
          align-items: center;
+        
         }
         
         #time{
