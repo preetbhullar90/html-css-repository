@@ -1,102 +1,106 @@
+
+
 /*   google fonts link   */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
-    background-color:rgb(66, 58, 58);
+    background-color: rgb(66, 58, 58);
     font-weight: 300;
-  
 }
 
+
 /*  navigation bar */
-#navbar{
+
+#navbar {
     display: flex;
     width: 100%;
     line-height: 80px;
     text-transform: uppercase;
     background-color: #e4d8d8;
-    font-family:Oswald,sans-serif ;
+    font-family: Oswald, sans-serif;
     letter-spacing: 4px;
-    position: fixed;                 
-    z-index: 2; 
-    
+    position: fixed;
+    z-index: 2;
 }
 
-#link-bar{
- display: inline-block;
- width: 100%;
- font-size: 110%;
- text-align: end;
- font-size: 20px;
- margin: 10px;
+#link-bar {
+    display: inline-block;
+    width: 100%;
+    font-size: 110%;
+    text-align: end;
+    font-size: 20px;
+    margin: 10px;
 }
 
-#link-bar li{
-  display: inline-block;
-  margin: 0 30px;
-  list-style: none;
-  text-decoration: none;
-  color:#224249;
+#link-bar li {
+    display: inline-block;
+    margin: 0 30px;
+    list-style: none;
+    text-decoration: none;
+    color: #224249;
 }
 
-#link-bar a{
-  color:#224249;
-  text-decoration: none;
+#link-bar a {
+    color: #224249;
+    text-decoration: none;
 }
 
-#link-bar a:hover{
+#link-bar a:hover {
     border-bottom: 2px solid #353434;
 }
-.active{
-   border-bottom:2px solid #353434 ;
+
+.active {
+    border-bottom: 2px solid #353434;
 }
 
 
 /* website logo and logo link*/
 
-#logo,#logo a{
-    color:#224249;
+#logo,
+#logo a {
+    color: #224249;
     width: 50%;
     padding-left: 15px;
     font-size: 50px;
     text-decoration: none;
     padding-top: 9px;
- }
- 
- #logo, #link-bar{
-     line-height: 50px;
- }
+}
+
+#logo,
+#link-bar {
+    line-height: 50px;
+}
 
 
 /*  Hero Image for home page */
 
-#hero-image{
+#hero-image {
     width: 100%;
     overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
-#image{
-    background: url("../images/herophoto.jpg") center center /cover no-repeat;  
+#image {
+    background: url("../images/herophoto.jpg") center center /cover no-repeat;
     width: 100%;
-    height: 800px; 
+    height: 800px;
 }
 
 
 /*Cover Text*/
 
-#cover-text{
+#cover-text {
     border-radius: 10px;
     position: absolute;
     font-size: 130%;
-    font-family:Oswald,sans-serif ;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 300px;
@@ -105,52 +109,59 @@ body{
     padding-left: 10px;
     background-color: rgba(53, 214, 219, 0.753);
     bottom: 10em;
-    left:50px ;
+    left: 50px;
 }
 
-#cover-text >h2 {
+#cover-text>h2 {
     padding-bottom: 20px;
-      font-size: 170%;
-       text-transform: uppercase;
-       letter-spacing: 3px;
-       font-family: Oswald, sans-serif;
-       color: #fff;
+    font-size: 170%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Oswald, sans-serif;
+    color: #fff;
 }
 
-#cover-text >p {
+#cover-text>p {
     font-size: 25px;
     color: #c81717;
     font-family: Oswald, sans-serif;
 }
 
-strong{
-font-size: 40px;
+strong {
+    font-size: 40px;
 }
 
-/*  Gym blogs section for the gym about under the hero image on the home page*/ 
-#gym-about{
+
+/*  Gym blogs section for the gym about under the hero image on the home page*/
+
+#gym-about {
     display: flex;
-  margin: 30px auto;
+    margin: 30px auto;
     width: 100%;
     height: 800px;
-   
-    
 }
-.gym-about-left,.gym-about-center,.gym-about-right{
-    width:30em ;
-    padding:80px 30px 10px 30px;
+
+.gym-about-left,
+.gym-about-center,
+.gym-about-right {
+    width: 30em;
+    padding: 80px 30px 10px 30px;
     margin: 30px auto;
     background-color: #1a1a18;
     box-shadow: 5px 5px 5px #7a7878;
     transition: transform .2s;
 }
 
-.gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
+.gym-about-left img:hover,
+.gym-about-center img:hover,
+.gym-about-right img:hover {
     transform: scale(1.1);
-    
 }
-.gym-about-left img,.gym-about-center img,.gym-about-right img{
-    width:100%;
+
+.gym-about-left img,
+.gym-about-center img,
+.gym-about-right img {
+    width: 100%;
     height: 25vh;
     border-radius: 15%;
     object-fit: cover;
@@ -158,16 +169,21 @@ font-size: 40px;
     border: 2px solid#fff;
     margin-bottom: 30px;
 }
-.gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
-  text-align: center;
-  color: #fff;
-  font-family: Oswald, sans-serif;
-  letter-spacing: 4px;
-  font-size: 40px;
-  text-transform: uppercase;
+
+.gym-about-left h2,
+.gym-about-center h2,
+.gym-about-right h2 {
+    text-align: center;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
-.gym-about-left p,.gym-about-center p,.gym-about-right p{
+.gym-about-left p,
+.gym-about-center p,
+.gym-about-right p {
     text-align: center;
     font-family: Lato, sans-serif;
     color: #fff;
@@ -176,39 +192,45 @@ font-size: 40px;
     overflow: hidden;
 }
 
-.gym-about-link{
-   text-align: center;
-   padding-top: 30px;
- } 
-.gym-about-link a{
-     color: #fff;
-     font-size: 20px;
-     font-family: Oswald, sans-serif;
-     letter-spacing: 2px;
-     border-bottom: 2px solid#fff;
-     cursor: pointer;
-     text-decoration: none;
-} 
-.gym-about-link > a:hover{
-  color: #9e9999;
- }  
+.gym-about-link {
+    text-align: center;
+    padding-top: 30px;
+}
 
- /* contact form for contact gym*/
- #contact {
+.gym-about-link a {
+    color: #fff;
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 2px solid#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gym-about-link>a:hover {
+    color: #9e9999;
+}
+
+
+/* contact form for contact gym*/
+
+#contact {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     width: 100%;
     height: 400px;
-    margin:50px auto;
+    margin: 50px auto;
 }
+
 #contact-form {
-   display: flex;
-   flex-direction: column;
-   padding-left: 20px;
-   width: 25em;
-   justify-content: center;
-   margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 25em;
+    justify-content: center;
+    margin-right: 30px;
 }
+
 #contact-form h2 {
     color: #fff;
     font-size: 40px;
@@ -216,60 +238,64 @@ font-size: 40px;
     letter-spacing: 4px;
     padding-bottom: 20px;
 }
+
 #contact-form label {
     color: #fff;
     margin-bottom: 50px;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
 }
-#contact input{
-  padding:10px 5px;
-  margin-bottom: 20px;
-  margin-top: 5px;
-  padding-left: 20px;
+
+#contact input {
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
     border-radius: 20px;
     font-size: 15px;
     outline-width: 0;
-   border-style: none;
+    border-style: none;
 }
-#contact form input:nth-last-child(1){
+
+#contact form input:nth-last-child(1) {
     width: 100px;
     margin-top: 10px;
     font-size: 17px;
     text-transform: capitalize;
     cursor: pointer;
-   
 }
-#contact form input:nth-last-child(1):hover{
-background-color: #008000;
-color: #fff;
+
+#contact form input:nth-last-child(1):hover {
+    background-color: #008000;
+    color: #fff;
 }
 
 
 /*Site map,and links in contact form*/
-#contact-navbar{
+
+#contact-navbar {
     width: 20em;
     display: flex;
     padding-top: 70px;
     justify-content: left;
 }
 
-#contact-navbar ul{
-text-align: center;
-list-style: none;
-position: relative;
-margin-top: 40px;
+#contact-navbar ul {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin-top: 40px;
 }
 
-#contact-navbar li{
+#contact-navbar li {
     margin: 1px auto;
     padding: 10px 0;
 }
 
-#contact-navbar li a{
+#contact-navbar li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -278,11 +304,11 @@ margin-top: 40px;
     letter-spacing: 3px;
 }
 
-#contact-navbar a:hover{
+#contact-navbar a:hover {
     color: #0692f0;
 }
 
-#contact-navbar h2{
+#contact-navbar h2 {
     color: #fff;
     text-transform: uppercase;
     position: absolute;
@@ -291,91 +317,102 @@ margin-top: 40px;
     font-size: 30px
 }
 
+
 /*  Gym opning time in contact form */
-#time{
-  text-align: left;
-  padding-top: 60px;
-  text-transform: uppercase;
-  padding-left: 10px;
-  width: 20em;
-  color: #fff;
+
+#time {
+    text-align: left;
+    padding-top: 60px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    width: 20em;
+    color: #fff;
 }
-#time h2{
+
+#time h2 {
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
     font-size: 30px;
 }
 
-#time p{
+#time p {
     letter-spacing: 1px;
     font-family: Oswald, sans-serif;
 }
 
+
 /*  Address for the gym */
-#address{
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  padding-top: 60px;
-  text-transform: uppercase;
-  padding-left: 15px;
-  
+
+#address {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 60px;
+    text-transform: uppercase;
+    padding-left: 15px;
 }
-#address h2{
+
+#address h2 {
     line-height: 40px;
     font-size: 30px;
     padding-bottom: 20px;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
- }
-#address p{
-   line-height: 30px;
-   font-family: Oswald, sans-serif;
-   letter-spacing: 2px;
 }
+
+#address p {
+    line-height: 30px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+}
+
 
 /*  Google map */
 
-#map iframe{
+#map iframe {
     width: 100%;
     height: 300px;
 }
 
+
 /*  Footer with social media */
- footer {
+
+footer {
     width: 100%;
     height: 136px;
-    background-color:#224249;
+    background-color: #224249;
     color: #fff;
     margin-top: -23px;
     text-align: center;
     font-size: 20px;
- }
-
-footer a{
-     color: #fff;
-     padding: 0 10px;
 }
 
-#social-media-heading{
+footer a {
+    color: #fff;
+    padding: 0 10px;
+}
+
+#social-media-heading {
     letter-spacing: 1px;
     padding: 13px 0;
- }
+}
 
- footer p {
+footer p {
     margin-top: 15px;
 }
 
+
 /* Span used to hide the text in social media a link */
 
-span{
-  position: absolute;
-  color: #224249;
+span {
+    position: absolute;
+    color: #224249;
 }
- 
+
 
 /*  Photos in gallery page*/
-#photos-gallery{
+
+#photos-gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -383,117 +420,132 @@ span{
     padding-top: 7em;
 }
 
-#photos-gallery img:hover{
+#photos-gallery img:hover {
     transform: scale(1.03);
-    
 }
-#photos-gallery > img{
+
+#photos-gallery>img {
     width: 100%;
     padding: 6px;
-    
-    
 }
+
 
 /* Hero image for Signup file */
-#signup-form-image{
-   position: absolute;
+
+#signup-form-image {
+    position: absolute;
     width: 100%;
-   height: 627px;
-    background: url("../images/signup-image.jpg") center center /cover no-repeat  ;
+    height:887px;
+    background: url("../images/signup-image.jpg") center center /cover no-repeat;
     overflow: hidden;
 }
-#hero-image{
-display: flex;
-flex-direction: column;
-width: 100%;
+
+#hero-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
- /* Signup form for join  the Gym */
 
- #signup-form{
+/* Signup form for join  the Gym */
+
+#signup-form {
     height: 100%;
-    padding: 11em 0;
     text-align: center;
     position: relative;
     background-color: #434444c0;
+    padding-bottom: 4.4em;;
 }
 
-#signup-form >h2{
-font-family:Oswald,sans-serif ;
-padding-bottom: 20px;
- font-size: 60px;
- color:#fff;
- letter-spacing: 2px;
-}
-#signup-form label{
- font-family:Oswald,sans-serif ;
- padding-bottom: 3px;
- font-size: 23px;
-  display: flex;
-  letter-spacing: 2px;
-  flex-direction:column ;
-  color:  #fff;
-}
-#signup-form input{
- width: 30%;
- height: 50px;
- border-radius: 20px;
- font-size: 20px;
- border-width: 0;
- outline-width: 0;
- outline-style: none;
- background-color: #fff;
- margin-bottom: 20px;
- padding: 0 10px;
+#signup-form>h2 {
+    font-family: Oswald, sans-serif;
+    padding-bottom: 20px;
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-top: 3em;
 }
 
-#signup-form input:nth-last-child(1){
-   margin-top: 30px;
-   cursor: pointer;
-   width: 8%;
-   background-color: chartreuse;
-   text-transform: capitalize;
+#signup-form label {
+    font-family: Oswald, sans-serif;
+    padding-bottom: 3px;
+    font-size: 23px;
+    display: flex;
+    letter-spacing: 2px;
+    flex-direction: column;
+    color: #fff;
 }
 
-#signup-form input:nth-last-child(1):hover{
-background-color: #008000;
-color: #fff;
+#signup-form input {
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-width: 0;
+    outline-width: 0;
+    outline-style: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 0 10px;
 }
+
+#signup-form input:nth-last-child(1) {
+    margin-top: 30px;
+    cursor: pointer;
+    width: 8%;
+    background-color: chartreuse;
+    text-transform: capitalize;
+}
+
+#signup-form input:nth-last-child(1):hover {
+    background-color: #008000;
+    color: #fff;
+}
+
 
 /*  trainers about blog   For trainer.html file*/
-#container{
+
+#container {
     padding-left: 14em;
     margin: auto;
     width: 100%;
     position: relative;
     padding: 0px 2em;
-   
- }
-  
-  #trainers-blog{
+}
+
+#trainers-blog {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     padding-top: 9em;
-  } 
-
-  #trainer1,#trainer2,#trainer3,#trainer4{
-    display: flex;
-         flex-direction: column;
 }
 
-#trainer1 img,#trainer2 img,#trainer3 img,#trainer4 img{
+#trainer1,
+#trainer2,
+#trainer3,
+#trainer4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#trainer1 img,
+#trainer2 img,
+#trainer3 img,
+#trainer4 img {
     overflow: hidden;
     position: relative;
     width: 20em;
     height: 20em;
     margin: auto;
     border-radius: 50%;
-  }
+}
 
-  #trainer1 h2, #trainer2 h2, #trainer3 h2, #trainer4 h2{
-     text-align: center;
+#trainer1 h2,
+#trainer2 h2,
+#trainer3 h2,
+#trainer4 h2 {
+    text-align: center;
     font-size: 2.5em;
     color: #fff;
     letter-spacing: 1px;
@@ -502,9 +554,12 @@ color: #fff;
     margin: 0;
     padding: 0;
     font-family: Oswald, sans-serif;
-  }
+}
 
-  #trainer1 p,#trainer2 p,#trainer3 p,#trainer4 p{
+#trainer1 p,
+#trainer2 p,
+#trainer3 p,
+#trainer4 p {
     color: #fff;
     display: flex;
     width: 20em;
@@ -516,395 +571,365 @@ color: #fff;
     font-family: Lato, sans-serif;
     letter-spacing: 2px;
     text-align: center;
- }
+}
 
-  /* Facilities file container*/
-  #facilities-containers{
+
+/* Facilities file container*/
+
+#facilities-containers {
     padding-left: 14em;
     margin: auto;
     width: 100%;
     position: relative;
     padding: 0px 2em;
-   
-  }
-  #facilities-section{
+}
+
+#facilities-section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     padding-top: 6em;
-} 
+}
 
-    .facilities-about{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5em;
-    }
-    .facilities-about video{
+.facilities-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+}
 
-        overflow: hidden;
-        position: relative;
-        width: 20em;
-        height: 20em;
-        margin: auto;
-        border:2px solid #fff
-    }
-    .facilities-about p{
-        color: #fff;
-      display: flex;
-      width: 20em;
-      height: 20em;
-      margin: 0 2.5em;
-      justify-content: flex-start;
-      flex-direction: column;
-      padding: 10px 0;
-      font-family: Lato, sans-serif;
-      letter-spacing: 2px;
-      text-align: justify;
-     
-      
-    }
-    .facilities-about h2{
+.facilities-about video {
+    overflow: hidden;
+    position: relative;
+    width: 20em;
+    height: 20em;
+    margin: auto;
+    border: 2px solid #fff
+}
+
+.facilities-about p {
+    color: #fff;
+    display: flex;
+    width: 20em;
+    height: 20em;
+    margin: 0 2.5em;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px 0;
+    font-family: Lato, sans-serif;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.facilities-about h2 {
     text-align: center;
-      font-size: 2.5em;
-      color: #fff;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      line-height: 2em;
-      margin: 0;
-      padding: 0;
-      font-family: Oswald, sans-serif;
-    }
-    
-    .facilities-about a{
-      width: 100%;
-      text-align: center;
-      background-color: #1a1a18;
-    }
-    
+    font-size: 2.5em;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
+}
 
-   
+.facilities-about a {
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a18;
+}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media  screen and (max-width:1200px){
 
-        #navbar{
-            display: flex;
-            flex-direction: column;
-            line-height: 40px;
-        }
-
-        #gym-about{
-            width: 100%;
-            margin: 30px auto;
-        }
-
-        .gym-about-left,.gym-about-center,.gym-about-right{
-         margin: 0 1px;
-         
-        }
-
-        .gym-about-left img,.gym-about-center img,.gym-about-right img{
-           height: auto;
-        }
-
-        #contact{
-         margin: auto;
-         padding: 10px;
-        }
-        #photos-gallery{
-            column-count: 3;
-            padding-top: 9em;
-        }
-
-        /* trainers file blog */
-
-        #trainers-blog{
-            padding-top: 13em;
-         }
-         #facilities-section{
-            
-            padding-top: 15em;
-        
+@media screen and (max-width:1200px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
     }
-        } 
-
-
-        /* Medium devices reponsive 750px and up) */
-        @media  screen and (max-width:950px){
-           
-            #link-bar{
-                line-height: 50px;
-                width: 100%;
-                text-align: left;
-            }
-
-            #cover-text{
-                left: 5px;
-                bottom: 5px;
-            }
-
-            #gym-about {
-                display: flex;
-                flex-direction: column;
-               text-align: center;
-              height: auto;
-             width: 100%;
-            }
-
-            .gym-about-left,.gym-about-center,.gym-about-right {
-              width: 100%;
-             margin: 20px auto;
-             padding: 40px 0;
-             transition: transform .2s;
-           }
-
-           .gym-about-left img,.gym-about-center img,.gym-about-right img {
-             border-radius: 0;
-             width: 80%;
-             margin:40px;
-             object-fit: cover;
-             object-position: 50% 50%;
-           }
-
-           .gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
-            transform: scale(1.1);
-           }
-
-            #contact{
-             display: flex;
-              flex-wrap:wrap;
-               width: 100%;
-              margin: 10px auto;
-              height:auto;
-            }
-
-            #contact-form{
-                margin: auto;
-                width: 100%;
-                padding-top: 50px;
-                padding-right: 20px;
-                height: auto;
-             }
-
-             #contact-navbar{
-                padding-top: 0px;
-                width: 100%;
-                margin: auto;
-            }
-
-             #contact-navbar ul{
-                width: 100%;
-            }
-
-            #contact-navbar h2{
-                text-align: center;
-                width: 100%;
-                position: absolute;
-                padding-bottom: 9em;
-               
-            }
-
-            #time{
-                width: 100%;
-                text-align: center;
-                height: 10%;
-                margin: 50px auto;
-                padding-top: 0;
-            }
-
-            #address{
-              display: inline-block;  
-              width: 100%;
-              text-align: center;
-              height: 10%;
-              margin: 50px auto;
-              padding-top: 0;
-            }
-            /* Gallery file */
-
-            #photos-gallery{
-                column-count: 2;
-                padding-top: 13em;
-            }
-           
-
-           /* signup File Section */
-
-          #signup-form input{
-             width: 70%; 
-            margin-bottom: 30px;
-           }
-
-           #signup-form{
-            padding-bottom: 20px;
-        }
-           #signup-form input:nth-last-child(1){
-               width: 15%;
-           }
-
-         /* trainers file blog */
-
-         #container{
-             padding-top: 10em;
-         }
-
-         #facilities-section{
-            
-            padding-top: 15em;
-        
-    }
-        
-         }
-
-
-         /* Extra small devices phones, 750px and down */
-         @media  screen and (max-width:750px){
-             
-            /* Logo and logo link */
-
-            #logo a,#logo h1,#logo{
-                width: 100%;
-               display: flex;
-                padding-top: 5px;
-                font-size: 40px;
-            }
-             /* Navbar in the header */
-
-            #link-bar{
-                line-height: 45px;
-                width: 100%;
-                text-align: left;
-                margin: 0;
-                padding: 0 5px 0 15px;
-                font-size: 15px;
-        }
-
-        #link-bar li{
-            margin:0 5px 0 5px;
-       }
-         
-        /* Address and sitemap Section */
-
-        #contact{
-            display:block;
-            width: 100%;
-            height: auto;
-            align-items: center;
-        }
-
-        #contact-form{
-            width: auto;
-        }
-        #contact-form form{
-            margin-bottom: 30px;
-          
-        }
-
-        #contact-navbar{
-            width: 100%;
-            text-align: center;
-        }
-
-         #contact-navbar ul,#contact-navbar h2,#address,#time{
-          width: 100%;
-          text-align: center;
-         align-items: center;
-        
-        }
-        
-        #time{
-            margin-top: 80px;
-        }
-
-        #cover-text{
-            left: 5px;
-            bottom: 5px;
-            height: auto;
-        }
-
-        #gym-about{
-            width: 100%;
-            display: block;
-            height: auto;
-        }
-
-        .gym-about-left,.gym-about-center,.gym-about-right{
-            width: 90%;
-            margin: auto;
-            padding: 30px;
-        }
-
-        .gym-about-left img,.gym-about-center img,.gym-about-right img{
-            margin: auto;
-            align-items: center;
-        }
-
-        .gym-about-left h2,.gym-about-center h2,.gym-about-right h2{
-          font-size: 30px;
-          padding-top: 10px;
-        }
-
-        .gym-about-left img:hover,.gym-about-center img:hover,.gym-about-right img:hover{
-            transform: scale(1.1);
-        }
-         
-        /* Signup file join us section */ 
-
-        #signup-form input{
-          width: 90%;
-        }
-        #signup-form{
-            padding-bottom: 10px;
-        }
-        #signup-form input:nth-last-child(1){
-            width: 30%;
-        }
-
-          /* Trainners file container */
-
-          #container{
-            margin: auto;
-           
-           }
-
-           #trainers-blog{
-            padding-top: 2em;
-        }
-         
-        /* Trainers file Heading Images and paragrapgh section */
-
-         #trainer1,#trainer2,#trainer3,#trainer4{
-         display: block;
-         margin: 0;
+    #gym-about {
         width: 100%;
-        
-        padding-bottom: 20px;
-        }
-
-        #trainer1 img,#trainer2 img,#trainer3 img,#trainer4 img{
-         width: 100%;
-         
+        margin: 30px auto;
+    }
+    .gym-about-left,
+    .gym-about-center,
+    .gym-about-right {
+        margin: 0 1px;
+    }
+    .gym-about-left img,
+    .gym-about-center img,
+    .gym-about-right img {
+        height: auto;
+    }
+    #contact {
         margin: auto;
-       
-         }
+        padding: 10px;
+    }
+    #photos-gallery {
+        column-count: 3;
+        padding-top: 9em;
+    }
+    /* trainers file blog */
+    #trainers-blog {
+        padding-top: 13em;
+    }
+    #facilities-section {
+        padding-top: 15em;
+    }
+   
+}
 
-        #trainer1 h2,#trainer1 p,#trainer2 h2,#trainer2 p,#trainer3 h2,#trainer3 p,#trainer4 h2,#trainer4 p{
-            width: 90%;
-            text-align: center;
-            margin: auto;
-        }
 
-        #photos-gallery{
-            column-count: 1;
-            padding-top: 10em;
-        }
-        #facilities-section{
-            
-                padding-top: 15em;
-            
-        }
+/* Medium devices reponsive 750px and up) */
+
+@media screen and (max-width:950px) {
+    #link-bar {
+        line-height: 50px;
+        width: 100%;
+        text-align: left;
+    }
+    #cover-text {
+        left: 5px;
+        bottom: 5px;
+    }
+    #gym-about {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    .gym-about-left,
+    .gym-about-center,
+    .gym-about-right {
+        width: 100%;
+        margin: 20px auto;
+        padding: 40px 0;
+        transition: transform .2s;
+    }
+    .gym-about-left img,
+    .gym-about-center img,
+    .gym-about-right img {
+        border-radius: 0;
+        width: 80%;
+        margin: 40px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    .gym-about-left img:hover,
+    .gym-about-center img:hover,
+    .gym-about-right img:hover {
+        transform: scale(1.1);
+    }
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 10px auto;
+        height: auto;
+    }
+    #contact-form {
+        margin: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-right: 20px;
+        height: auto;
+    }
+    #contact-navbar {
+        padding-top: 0px;
+        width: 100%;
+        margin: auto;
+    }
+    #contact-navbar ul {
+        width: 100%;
+    }
+    #contact-navbar h2 {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-bottom: 9em;
+    }
+    #time {
+        width: 100%;
+        text-align: center;
+        height: 10%;
+        margin: 50px auto;
+        padding-top: 0;
+    }
+    #address {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        height: 10%;
+        margin: 50px auto;
+        padding-top: 0;
+    }
+    /* Gallery file */
+    #photos-gallery {
+        column-count: 2;
+        padding-top: 13em;
+    }
+    /* signup File Section */
     
-        }
+    #signup-form input {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    #signup-form {
+        padding-bottom: 20px;
+    }
+    #signup-form input:nth-last-child(1) {
+        width: 15%;
+    }
+    /* trainers file blog */
+    #container {
+        padding-top: 10em;
+    }
+    #facilities-section {
+        padding-top: 15em;
+    }
+}
+
+
+/* Extra small devices phones, 750px and down */
+
+@media screen and (max-width:750px) {
+    /* Logo and logo link */
+    #logo a,
+    #logo h1,
+    #logo {
+        width: 100%;
+        display: flex;
+        padding-top: 5px;
+        font-size: 40px;
+    }
+    /* Navbar in the header */
+    #link-bar {
+        line-height: 45px;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 0 5px 0 15px;
+        font-size: 15px;
+    }
+    #link-bar li {
+        margin: 0 5px 0 5px;
+    }
+    /* Address and sitemap Section */
+    #contact {
+        display: block;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    #contact-form {
+        width: auto;
+    }
+    #contact-form form {
+        margin-bottom: 30px;
+    }
+    #contact-navbar {
+        width: 100%;
+        text-align: center;
+    }
+    #contact-navbar ul,
+    #contact-navbar h2,
+    #address,
+    #time {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #time {
+        margin-top: 80px;
+    }
+    #cover-text {
+        left: 5px;
+        bottom: 5px;
+        height: auto;
+    }
+    #gym-about {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .gym-about-left,
+    .gym-about-center,
+    .gym-about-right {
+        width: 90%;
+        margin: auto;
+        padding: 30px;
+    }
+    .gym-about-left img,
+    .gym-about-center img,
+    .gym-about-right img {
+        margin: auto;
+        align-items: center;
+    }
+    .gym-about-left h2,
+    .gym-about-center h2,
+    .gym-about-right h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .gym-about-left img:hover,
+    .gym-about-center img:hover,
+    .gym-about-right img:hover {
+        transform: scale(1.1);
+    }
+    /* Signup file join us section */
     
-    
+   
+    #signup-form input {
+        width: 90%;
+    }
+   
+    #signup-form input:nth-last-child(1) {
+        width: 30%;
+    }
+    /* Trainners file container */
+    #container {
+        margin: auto;
+    }
+    #trainers-blog {
+        padding-top: 2em;
+    }
+    /* Trainers file Heading Images and paragrapgh section */
+    #trainer1,
+    #trainer2,
+    #trainer3,
+    #trainer4 {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #trainer1 img,
+    #trainer2 img,
+    #trainer3 img,
+    #trainer4 img {
+        width: 100%;
+        margin: auto;
+    }
+    #trainer1 h2,
+    #trainer1 p,
+    #trainer2 h2,
+    #trainer2 p,
+    #trainer3 h2,
+    #trainer3 p,
+    #trainer4 h2,
+    #trainer4 p {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    #photos-gallery {
+        column-count: 1;
+        padding-top: 10em;
+    }
+    #facilities-section {
+        padding-top: 15em;
+    }
+}
+

@@ -1,190 +1,175 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Silver Gym For Exercise People in Southall, England">
+        <meta name="keywords" content="silver gym, england, southall">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Silver Gym</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Silver Gym For Exercise People in Southall, England">
-    <meta name="keywords" content="silver gym, england, southall">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Silver Gym</title>
-</head>
+    <body>
+        <!--Top header for home page-->
+        <header>
+            <!--Navigation bar-->
+            <div id="navbar">
+                <!--website logo-->
+                <h1 id="logo">
+                    <a href="index.html">silver gym</a>
+                </h1>
+                <!--Navigation bar link-->
+                <ul id="link-bar">
+                    <li>
+                        <a href="index.html" class="active"> home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">gallery</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">signup</a>
+                    </li>
+                    <li>
+                        <a href="trainners.html">trainers</a>
+                    </li>
+                    <li>
+                        <a href="facilities.html">facility</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">equipment</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-<body>
+        <!--  Hero Image for home page and Cover text-->
+        <section id="hero-image">
+            <div id="image"></div>
+            <div id="cover-text">
+                <h2>We are here for your fitness</h2>
+                <p><strong>20%</strong> off for all new gym members</p>
+            </div>
+        </section>
 
-    <!--Top header for home page-->
-    <header>
+        <!-- Gym blogs section for about gym under the hero image-->
+        <section id="gym-about">
+            <!--This is for Equipments blog in the home page -->
+            <div class="gym-about-left">
+                <img src="/assets/images/gym-6.jpg" alt="Treadmill image">
+                <h2>Facilities</h2>
+                <p>We provide free car parking for gym members. The main gym hall is large,spacious and built with saftey in
+                    mind and features non-slippery floors.
+                    We offer the latest range of machinery aswell as a week of complimentary training classes.
+                </p>
+                <div class="gym-about-link"><a href="gallery.html">Facility Photos</a>.</div>
+            </div>
 
-        <!--Navigation bar-->
-        <div id="navbar">
+            <!--This is for faclities blog in the home page -->
+            <div class="gym-about-center">
+                <img src="/assets/images/main-2.jpg" alt="girl exercising image ">
+                <h2>Equipment</h2>
+                <p>We have a large variety of exercise equipment such as dumbbells,treadmills and Weight machines which are
+                    fixed
+                    for maximum safety. We offer the lastest range of equipment that can help you achive your fitness goals
+                    efficiently.
+                </p>
+                <div class="gym-about-link"><a href="facilities.html">Equipment Videos</a>.</div>
+            </div>
 
-            <!--website logo-->
-            <h1 id="logo">
-                <a href="index.html">silver gym</a>
-            </h1>
+            <!--This is for trainers blog in the home page -->
+            <div class="gym-about-right">
+                <img src="/assets/images/trainner-2.jpg" alt="trainer-image">
+                <h2>Trainers</h2>
+                <p>Are you a beginner? Don't worry, We have certified trainers and nutritionists who can help you achive
+                    your fitness goals.
+                    Just take the first step by joining and we will help you through the rest. 
+                </p>
+                <div class="gym-about-link"><a href="trainners.html">Trainers Description</a>.</div>
+            </div>
+        </section>
 
-            <!--Navigation bar link-->
-            <ul id="link-bar">
-                <li>
-                    <a href="index.html" class="active"> home</a>
-                </li>
+        <!-- contact form for contact gym-->
+        <section id="contact">
+            <div id="contact-form">
+                <h2>Contact Us:</h2>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <br>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="submit" name="submit">
+                </form>
+            </div>
 
-                <li>
-                    <a href="gallery.html">gallery</a>
-                </li>
+            <!--Site map,and links in contact form-->
+            <div id="contact-navbar">
+                <h2>sitemap</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">gallery</a>
+                    </li>
+                    <li>
+                        <a href="signup.html">sign up</a>
+                    </li>
+                    <li>
+                        <a href="trainners.html">trainers</a>
+                    </li>
+                </ul>
+            </div>
 
-                <li>
-                    <a href="signup.html">signup</a>
-                </li>
-
-                <li>
-                    <a href="trainners.html">trainers</a>
-                </li>
-                <li>
-                    <a href="facilities.html">facility</a>
-                    
-                </li>
-                <li>
-                    <a href="gallery.html">equipment</a>
-                    
-                </li>
-            </ul>
-        </div>
-
-    </header>
-
-    <!--  Hero Image for home page and Cover text-->
-    <section id="hero-image">
-        <div id="image"></div>
-        <div id="cover-text">
-            <h2>We are here for your fitness</h2>
-            <p><strong>20%</strong> off for all new gym members</p>
-        </div>
-    </section>
-
-    <!-- Gym blogs section for about gym under the hero image-->
-    <section id="gym-about">
-
-        <!--This is for Equipments blog in the home page -->
-        <div class="gym-about-left">
-            <img src="/assets/images/gym-6.jpg" alt="Treadmill image">
-            <h2>Facilities</h2>
-            <p>We provide free car parking for gym members. The main gym hall is large,spacious and built with saftey in
-                mind and features non-slippery floors.
-                We offer the latest range of machinery aswell as a week of complimentary training classes.</p>
-            <div class="gym-about-link"><a href="gallery.html">Facility Photos</a>.</div>
-        </div>
-
-        <!--This is for faclities blog in the home page -->
-        <div class="gym-about-center">
-            <img src="/assets/images/main-2.jpg" alt="girl exercising image ">
-            <h2>Equipment</h2>
-            <p>We have a large variety of exercise equipment such as dumbbells,treadmills and Weight machines which are
-                fixed
-                for maximum safety. We offer the lastest range of equipment that can help you achive your fitness goals
-                efficiently.</p>
-            <div class="gym-about-link"><a href="facilities.html">Equipment Videos</a>.</div>
-        </div>
-
-        <!--This is for trainers blog in the home page -->
-        <div class="gym-about-right">
-            <img src="/assets/images/trainner-2.jpg" alt="trainer-image">
-            <h2>Trainners</h2>
-            <p>Are you a beginner? Don't worry, We have certified trainers and nutritionists who can help you achive
-                your fitness goals.
-                Just take the first step by joining and we will help you through the rest. </p>
-            <div class="gym-about-link"><a href="trainners.html">Trainers Description</a>.</div>
-        </div>
-
-    </section>
-
-    <!-- contact form for contact gym-->
-    <section id="contact">
-        <div id="contact-form">
-            <h2>Contact Us:</h2>
-            <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Email" required>
+            <!--Gym opning time in contact form-->
+            <div id="time">
+                <h2>opening time</h2>
                 <br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Password" required>
+                <p>monday to friday</p>
+                <p>5:00am TO 12:00am</p>
                 <br>
-                <label for="submit"></label>
-                <input type="submit" id="submit" value="submit" name="submit">
-            </form>
+                <p>saturday</p>
+                <p>6:00am TO 8:00pm</p>
+                <br>
+                <p>Sunday</p>
+                <p>7:00 TO 5:00pm</p>
+            </div>
+
+            <!--Address for the gym-->
+            <div id="address">
+                <h2>Address:</h2>
+                <p>
+                    Southall Broadway<br>
+                    London<br>
+                    UB12RT
+                </p>
+            </div>
+        </section>
+
+        <!--Google map-->
+        <div id="map">
+            <iframe title="Google Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.151771362912!2d-0.3782926836720516!3d51.51043151830169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760d54c62777df%3A0x54f96cb1689f6a16!2sSouthall%20Broadway%20(Stop%20N)!5e0!3m2!1sen!2suk!4v1630595593008!5m2!1sen!2suk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-        <!--Site map,and links in contact form-->
-        <div id="contact-navbar">
-            <h2>sitemap</h2>
-            <ul>
-                <li>
-                    <a href="index.html">home</a>
-                </li>
-
-                <li>
-                    <a href="gallery.html">gallery</a>
-                </li>
-
-                <li>
-                    <a href="signup.html">sign up</a>
-                </li>
-
-                <li>
-                    <a href="trainners.html">trainners</a>
-                </li>
-            </ul>
-        </div>
-
-        <!--Gym opning time in contact form-->
-        <div id="time">
-            <h2>opening time</h2>
-            <br>
-            <p>monday to friday</p>
-            <p>5:00am TO 12:00am</p>
-            <br>
-            <p>saturday</p>
-            <p>6:00am TO 8:00pm</p>
-            <br>
-            <p>Sunday</p>
-            <p>7:00 TO 5:00pm</p>
-        </div>
-        <!--Address for the gym-->
-        <div id="address">
-            <h2>Address:</h2>
-            <p>
-                Southall Broadway<br>
-                London<br>
-                UB12RT
-            </p>
-        </div>
-    </section>
-
-
-    <!--Google map-->
-    <div id="map">
-        <iframe title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.151771362912!2d-0.3782926836720516!3d51.51043151830169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760d54c62777df%3A0x54f96cb1689f6a16!2sSouthall%20Broadway%20(Stop%20N)!5e0!3m2!1sen!2suk!4v1630595593008!5m2!1sen!2suk"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-
-
-    <!--Footer with social media-->
-    <footer>
-        <p id="social-media-heading">Follow Us</p>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+        <!--Footer with social media-->
+        <footer>
+            <p id="social-media-heading">Follow Us</p>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i
                 class="fab fa-facebook"></i><span>.</span></a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener"><i
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"><i
                 class="fab fa-youtube"></i><span>.</span></a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"><i
                 class="fab fa-twitter"></i><span>.</span></a>
-        <p>Copyright 2021 All Rights Reserved Silver Gym</p>
-    </footer>
-
-
-
-</body>
-
+            <p>Copyright 2021 All Rights Reserved Silver Gym</p>
+        </footer>
+    </body>
 </html>
+
