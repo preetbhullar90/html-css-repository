@@ -5,32 +5,34 @@
 2. [User Experience](#User-Experience) 
    
 3. [Target](#Target)
+
+4. [Structure](#Structure)
    
-4. [Design](#Design)
+5. [Design](#Design)
   
-5. [Features](#Features)
+6. [Features](#Features)
 
-6. [Bugs](#Bugs) 
+7. [Bugs](#Bugs) 
 
-7. [Other Features](#Other-Features)
+8. [Other Features](#Other-Features)
 
-8. [Features Left to Implement](#Feature-Left-to-Implement)
+9. [Features Left to Implement](#Feature-Left-to-Implement)
 
-9. [Technologies Used](#Technologies-Used)
+10. [Technologies Used](#Technologies-Used)
   
-10. [Frameworks Libraries and Programs Used](#Frameworks-Libraries-and-Programs-Used)   
+11. [Frameworks Libraries and Programs Used](#Frameworks-Libraries-and-Programs-Used)   
 
-11. [Testing](#Testing)
+12. [Testing](#Testing)
 
     - [Testing.md](assets/testing-file/testing.md)
 
-12. [Deployment](#Deployment)
+13. [Deployment](#Deployment)
 
-13. [Make a clone](#Make-a-clone)
+14. [Make a clone](#Make-a-clone)
 
-14. [Credit](#Credit)
+15. [Credit](#Credit)
 
-15. [Acknowledgements](#Acknowledgements)
+16. [Acknowledgements](#Acknowledgements)
    
 
 
@@ -42,9 +44,9 @@
 ________________________________________________________________________________________________________________
 ## Introduction
 
-The Silver Gym website is designed for individuals searching for a high qaulity gym. The purpose of this website is to showcase the facilities offered at this gym as well as the type of experience you can expect while using this gym.  The features of this website such as the gallery are aimed at motivating the customer to use silver gym for their fitness goals. 
-This website mainly focuses on informing potential customers about the facilities offered at this gym and what they can expect by joining. The page about trainers informs and motivates potential customers about the benifits they can get by joining and having access to highly qualified personal trainers. The Silver Gym website encourages people to join the gym to help keep their body healthy and strong.
-Silver Gym website is my first Milestone Project out of five and it s part of Full Stack Web development course at thr Code Institute.
+The Silver Gym website is designed for individuals searching for a high quality gym. The purpose of this website is to showcase the facilities offered at this gym as well as the type of experience you can expect while using this gym.  The features of this website such as the gallery are aimed at motivating the customer to use silver gym for their fitness goals.
+This website mainly focuses on informing potential customers about the facilities offered at this gym and what they can expect by joining. The page about trainers informs and motivates potential customers about the benefits they can get by joining and having access to highly qualified personal trainers. The Silver Gym website encourages people to join the gym to help keep their body healthy and strong.
+Silver Gym website is my first Milestone Project out of five and its part of Full Stack Web development course at the Code Institute.
 I mainly used HTML5 and CSS3 to make this website.
 
  [Go Top](#Silver-Gym)
@@ -56,19 +58,19 @@ ________________________________________________________________________________
 
 * People looking to chanage their current gym.
 
-* People interested in fitness.
+
 
 ## User Stories
 ### New members
-- For new members, I have included information about a free 24 hours car parking for gym members.
-- For new members,I just link navbar and some other blogs with a link to see all about gym,quipments etc.
-- For new members,I linked one blog to the video page to see the exercise and get ideas.
-- For new members, i made a bolg on home page to easily know about trainers.
+- For new members, I have included information about a free 24 hour car park for gym members.
+- For new members, I have linked a navbar and some blocks with a link to another page with information about the gym and the equipment available.
+- For new members, I have linked one block to the equipment video page where new members can see demonstrations of the various machines we have to offer. They can use the information on this page to plan their workouts. 
+- For new members, I have made a block on the home page which has information that can help new members understand how our personal trainers can help them achieve their fitness goal. 
 
 ### Current gym members
-- For current gym members,They can login to the website  with their current Email and Password to see anything in their account.
-- For current gym members,they can extend,alter and cancel their membership with just one form.
-- For current gym members,they can learn  how to use the quipent correctly by watching the videos available on the facilities video link.
+- For current gym members, they can login to the website with their current Email and Password to see anything in their account.
+- For current gym members, they can extend, alter and cancel their membership with just one form.
+- For current gym members, they can learn how to use the equipment correctly by watching the videos available on the facilities video link.
 
 [Go Top](#Silver-Gym)
 _______________________________________________________________________________________________________________
@@ -76,10 +78,14 @@ ________________________________________________________________________________
 # Target
 - On the website home page I  have added a big background image to try and motivate people to push towards their goals and look after their health.
 - On the Home Page Everyone can see it's 20% off  for all  new members. I think this is a good way to support and encourage people to come and join silver gym.
+_________________________________________________________________________________________________________
+
+## Structure
+![](assets/readme-file/structure.png)
 
 
  ### Skeleton
- - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages.To convience user to use this website:
+ - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages. To convience user to use this website:
  
 
  ### Desktop wireframe
@@ -101,7 +107,7 @@ ________________________________________________________________________________
 * I used three font style Lato,Oswald and sans-serif.
 * I have used Lato only for the paragraphs.
 * I have used Oswald for the headings.
-* I have used the font Sans-serif for backup in instances where if correct link isnt provided to the css3 file then your Goole font will not work but sans-serif always works.
+* I have used the font Sans-serif for backup in instances where if the correct link isn’t provided to the css3 file, a font type is still available. If this occurs and the Google font does not work the backup font sans-serif will always work.
 
 ### Imagery
 * The images used in this website play a very important role in the user experience of the website.
@@ -120,26 +126,32 @@ ________________________________________________________________________________
 * ## Facilities Page
 * ## Footer
 
-* ### Header
-In the header the main logo of the website is on the left site,and navigation links are on the right side on all the pages.But on the medium device like tablets the logo stayed on left side but navigation links comes under the logo in the middle.On the small device like iphone, Anriod phone both logo and navigation bar comes left side with small font size.
+### Header
 
-* ### Home Page
-The home page has big hero image in the back.Under the hero image there are three blogs,one blog is about facilities other one is about Equipment and the last one for trainners.Each blog has a link with another page.Under the blogs there is a form section for Email,Phone number,Address ,website Email and link bar where user can navigate all the pages,And google map as well.
+In the header the main logo of the website is on the left hand side, and the navigation links are on the right hand side on all the pages.  On medium sized devices such as tablets the logo stays on the left hand side but the navigation links come under the logo in the middle. On small devices such as iPhones and Android phones both the logo and navigation bar move to the left hand side with the text in a small font size.
 
-* ### Gallery Page
-The gallery page has lots of images about gym equipments etc.Gallery photos divided in the columns,If user see on the big screen then gallery will show in four columns.On the medium screen gallery will see in three columns.Other all small screens user will see just two columns.If user will mouse over the images then images wil zoom out little bit.
+<a href="https://github.com/preetbhullar90/html-css-repository/blob/main/index.html" target="_blank" alt="SilverGym Home Page">Home Page</a>
 
-* ### Signup Page
-On the signup page,User will see big signup form with Name,Last Name, Email,Password and submit.This submit form is linked to the home page basically this form is join us form so that's why when user will fill this form it will redirect to home page.The signup has huge hero image as well.Underneath same Address,Email,linkbar like others pages.
+The home page has a big hero image in the back. Under the hero image there are three blocks, one block is about facilities, and the other one is about Equipment and the last one is for trainers. Each block is linked to another page. Under the blocks there is a form section for Email, Phone number, Address , business Email and a link bar where the user can navigate to all the pages, a  google map of the business location is also featured.
 
-* ### Trainers Page
-The trainers page has one big blog,In this blog has four small blogs.Each blog has heading,image and paragraph.The blogs have a white background and each blog shows different different skills like whats is trainers role in your daily routine etc.
+<a href="https://github.com/preetbhullar90/html-css-repository/blob/main/gallery.html" target="_blank" alt="SilverGym Home Page">Gallery Page</a>
 
-* ### Facilities Page
-The facilities page has lots of videos.With the videos has heading paragraphs.Headings are showing Name of the videos and paragraphs just explaining how to exercises with each gym sets.This videos also divided in columns.On big screen videos shows in one line.But on small screens it's divideed in one column.
+The gallery page features a lot of images about the gyms equipment and facilities. The gallery photos are divided in to columns, if the user is viewing the website on a big screen then the gallery will be displayed in four columns. On a medium sized screen the gallery will be seen in three columns. On small sized screens the user will see just two columns. If the user will hover the mouse over the images then images will zoom out slightly.
+
+<a href="https://github.com/preetbhullar90/html-css-repository/blob/main/signup.html" target="_blank" alt="SilverGym Home Page">Signup Page</a>
+
+On the signup page, the user will see a big signup form with space to enter your name, last Name, email, and password followed by a submit button . This submit form button is linked to the home page.  This form is the “join us” form, this is why when user will fill this form it will redirect them to the home page. The signup page has huge hero image with the following information underneath; Address, Email and linkbar.
+
+<a href="https://github.com/preetbhullar90/html-css-repository/blob/main/trainners.html" target="_blank" alt="SilverGym Home Page">Trainers Page</a>
+
+The trainer’s page has one big block which has four smaller blocks. Each block has a heading, image and paragraph. The blocks have a white background and each block shows different skills such as “what is a trainer’s role in your daily routine.”
+
+<a href="https://github.com/preetbhullar90/html-css-repository/blob/main/facilities.html" target="_blank" alt="SilverGym Home Page">Faility Page</a>
+
+The facilities page has a large variety of videos. Each video has a heading and paragraph.  The heading shows the name of the video and paragraphs explains how to exercise with each gym set. The videos are divided in to columns. On big screens the videos display horizontally in one line. On smaller screens they are displayed vertically in one column.
 
 * ### Footer
-Footer has on all the pages in the bottom of the pages. The footer has social media heading and three social media icons like Facebook,youtube,twitter.Icons linked direct with websites like Facebook icon with Facebook website,Youtube icon with Youtube website and Twitter with Twitter website.Undeteath the icons has p tag in the p tag has year of the website published and website all rights reserverd.
+ A footer is featured on the bottom of every page on the website. The footer has a social media heading and the following three social media icons; Facebook, YouTube, and twitter. Each Icon is linked directly with the corresponding website. Underneath each icons there is a p tag the p tag has year that the website was published and that all their rights are reserved.
 
  [Go Top](#Silver-Gym)
 ________________________________________________________________________________________________________________
@@ -151,15 +163,15 @@ ________________________________________________________________________________
 * No any issue left.
 ________________________________________________________________________________________________________________
 # Other Features
-* The logo has linked with home page when User will click on the logo it will take to the home page.
-* In the form page,navigation bar and Email have a hover option when user will mouse over it. It will show diffrent colour. It is easy to understand for user that this is clickable links.
-* The home page blogs has also hover option when visiter will hover on it then images will zoom out.
+* The logo is linked to the home page when the user will click on the logo it will take them to the home page.
+* On the form page, navigation bar and email have a hover option. When the user will hover their mouse over it, it will show a different colour. This makes it easier to understand for the user that this is clickable link.
+* The home page block also has a hover option when the visitor will hover on it then the images will zoom out.
 ________________________________________________________________________________________________________________
 
 # Feature Left to Implement
 
-* Navigation bar with hamburger logo on small screen.The reason why didn't do because i need to use javascript but this is only with HTML5 and CSS3.
-* Signup form and Email should give reponse to user on user Email.But again need javascript and datastroage oiption like mongodb.
+* Navigation bar with a hamburger logo on a small screen. The reason why didn't implement this is because I need to use JavaScript to do this but this project only uses HTML5 and CSS3.
+* The Signup form and email should give a response to the user on the users email. This could not be implemented because JavaScript and a data storage option like mongodb is need for this feature.
 ________________________________________________________________________________________________________________
 
 # Technologies Used
@@ -176,19 +188,19 @@ ________________________________________________________________________________
 * Fonts awesome just used to import all the icons in the website.
 
 ## Google fonts
-* Google fonts used for import the google style fonts in css like  Lato,Oswald and sans-serif.
+* Google fonts was used to import the google style fonts in css like Lato, Oswald and sans-serif.
 
 ## Gitpod
-* Gitpod used for write thre code and commit,push in the Github with terminal.
+* Gitpod was used for writing the code in the terminal it was also used to commit and push the code in GitHub.
 
 ## Github
-* Github used for store the data which pushed by Gitpod.
+* GitHub was used to store the data which was pushed by Gitpod.
 
 ## Figma
-* Figma was used for create the wireframe of the project before start on the terminal.
+* Figma was used to create the wireframe of the project before starting code on the terminal.
 
 ## Am I Responsive
-* Am I Responsive was used to see if project is reponsive on all the devices.
+* Am I Responsive was used to see if project is responsive on different types of devices.
 
  [Go Top](#Silver-Gym)
 ________________________________________________________________________________________________________________
@@ -200,19 +212,19 @@ ________________________________________________________________________________
 # Deployment
 
 ## Github Pages
-To deploy github Page from Github Repository,The following option used:
+To deploy a GitHub Page from the GitHub Repository, The following options were used:
 
 1. [Login](https://github.com/) into Github or [Signup](https://github.com/) for new.
 
-2. Click on your Repository,you can click left side on side bar or go right side click on your profile and select your Repository option.
+2. Click on your Repository, you can click on the left side on the side bar or go to the right side  to click on your profile and select your Repository option.
 
-3. Click on the Setting option which is located top of your Project.
+3. Click on the Setting option which is located on the top of your Project.
 
-4. Scroll down and In the **GitHub Pages** option click on Check it out here! Link.
+4. Scroll down and in the **GitHub Pages** option and click on  the Check it out here! Link.
 
-5. Under "Source", click the dropdown called "None" and select "Master Branch". 
+5. Under "Source", click the dropdown option called "None" and select "Master Branch". 
 
-6. Refresh your page on top left corner with circle button.
+6. 6. Refresh your page on the top left corner with the circle button.
 
 7. Scroll back down in  **GitHub Pages** and again click on the  Check it out here! Link now published site link in the "GitHub Pages" section. 
 ________________________________________________________________________________________________________________
@@ -231,7 +243,7 @@ ________________________________________________________________________________
 
 6. Type git clone, and then paste the URL you copied in Step 3. 
 
-git clone  https://github.com/USERNAME/REPOSITORY
+       git clone  https://github.com/USERNAME/REPOSITORY
 
 7. Press Enter. Your local clone will be created. 
 ________________________________________________________________________________________________________________
@@ -239,15 +251,18 @@ ________________________________________________________________________________
 # Credit
 
 ### Content
-* All content Ideas took from gym wikipedia.
+* All content Ideas were taken from researching gyms using Wikipedia.
+
+### Code
+* All the code was written by myself, but I took some help from stackoverflow, W3School and Google. I did this to research things like “Like how to make website responsive”.
 
 ### Media
 * All the videos and images download free from [pexels](https://www.pexels.com/search/gym%20and%20fitness/).
 ________________________________________________________________________________________________________________
 
 # Acknowledgements
-* Especially i would like to thanks my wife,Who helped me to give me some ideas and she motivated me to finish this project.
-* Secondly i would like to thanks my mentor seun,she helped me in whole process of the project.
-* Lastly i would appreciated to W3School website where i got lots of ideas.
+* I would especially like to thank my wife, who helped me by giving me some ideas regarding my website. She motivated me to finish this project to the best of my ability.
+* Secondly I would like to thank my mentor Seun, she helped during the whole process of the project.
+* Lastly I would like to acknowledge the W3School website as I gained many ideas from there. 
 
  [Go Top](#Silver-Gym)
