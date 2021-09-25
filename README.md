@@ -81,6 +81,9 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________
 
 ## Structure
+
+* The type of site structure I have chosen for my website is a hierarchical structure which is demonstrated in the image below. The information architecture was arranged like this to ensure a user friendly experience as well as smooth navigation between the pages.
+
 ![](assets/readme-file/structure.png)
 
 
