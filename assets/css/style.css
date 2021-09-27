@@ -664,7 +664,7 @@ span {
     }
     #contact {
         margin: auto;
-        padding: 10px;
+        padding: 10px 20px 10px 10px;
     }
     #photos-gallery {
         column-count: 3;
