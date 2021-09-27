@@ -62,23 +62,32 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 **Results:**
 
 
-# HTML5 Result
+### **Home Page**
+![](/assets/testing-file/home-page-result.PNG)
 
+### **Gallery Page**
+![](/assets/testing-file/gallery-page-result.PNG)
 
-![](/assets/testing-file/html.PNG)
+### **Signup Page**
+![](/assets/testing-file/signup-page-result.PNG)
+
+### **Trainers Page**
+![](/assets/testing-file/trainers-page-result.PNG)
+
+### **Facilities Page**
+![](/assets/testing-file/facilities-page-result.PNG)
 
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
 
-**Results:**
-![Style sheet validation results](assets/testing-files/automated/style.png)
+### **Css Result**
 
-
-### Css Result
 ![](/assets/testing-file/tester.PNG)
 
 
 
-# Lighthouse
+## Lighthouse
+
+* Website performance checked in lighthouse developer-tool,with the following result :
 
 1. ### Desktop 
 ![](/assets/testing-file/permorfance.PNG)
