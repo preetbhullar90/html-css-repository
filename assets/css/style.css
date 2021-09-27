@@ -36,12 +36,12 @@ body {
     text-align: end;
     font-size: 20px;
     margin: 10px;
-    padding-right: 3em;
+    padding-right: 1em;
 }
 
 #link-bar li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 23px;
     list-style: none;
     text-decoration: none;
     color: #224249;
@@ -492,14 +492,15 @@ span {
 #signup-form input:nth-last-child(1) {
     margin-top: 30px;
     cursor: pointer;
-    width: 8%;
-    background-color: chartreuse;
+    width: 12%;
+    background-color: #008000;
     text-transform: capitalize;
+    color: #fff;
 }
 
 #signup-form input:nth-last-child(1):hover {
-    background-color: #008000;
-    color: #fff;
+    background-color: #fff;
+    color: #008000;
 }
 
 
@@ -536,7 +537,7 @@ span {
     overflow: hidden;
     position: relative;
     width: 20em;
-    height: 20em;
+    height: 18em;
     margin: auto;
     border-radius: 50%;
 }
@@ -640,17 +641,27 @@ span {
 }
 
 
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media screen and (max-width:1200px) {
     #navbar {
-        display: flex;
-        flex-direction: column;
+      display: inline-block;
         
     }
+    #link-bar {
+       
+        width: 100%;
+      margin: auto;
+      
+    }
+  
     #gym-about {
         width: 100%;
         margin: 30px auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .gym-about-left,
     .gym-about-center,
@@ -680,6 +691,21 @@ span {
    
 }
 
+/* Medium devices reponsive 1050px and down) */
+/*@media screen and (max-width:1050px) {
+    #navbar {
+        display: inline-block;
+          
+      }
+      #link-bar {
+        display: flex;
+        justify-content: space-evenly;
+         width: 100%;
+        
+       
+      }
+    
+}
 
 /* Medium devices reponsive 750px and up) */
 
@@ -703,7 +729,7 @@ span {
     .gym-about-left,
     .gym-about-center,
     .gym-about-right {
-        width: 100%;
+        width: 90%;
         margin: 20px auto;
         padding: 40px 0;
         transition: transform .2s;
@@ -857,7 +883,7 @@ span {
     .gym-about-center,
     .gym-about-right {
         width: 90%;
-        margin: auto;
+        margin: 20px auto;
         padding: 30px;
     }
     .gym-about-left img,
