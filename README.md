@@ -81,11 +81,23 @@ I mainly used HTML5 and CSS3 to make this website.
  - I used [Figma](https://www.figma.com/file/CHXc92m6fwvkLuXmaUi6vf/Untitled?node-id=0%3A1) Wireframe to Attach the following pages. To convience user to use this website:
  
 
- #### Desktop wireframe
- ![](assets/readme-file/desktop-1.png)
+ #### Home-Page
+ ![](assets/readme-file/Capture.PNG)
 
-  #### Mobile wireframe
- ![](assets/readme-file/Phone.png)
+  #### Gallery-Page
+ ![](assets/readme-file/Capture6.PNG)
+
+  #### signup-Page
+ ![](assets/readme-file/Capture7.PNG)
+
+  #### Trainers-Page
+ ![](assets/readme-file/Capture9.PNG)
+
+  #### Facilities-Page
+ ![](assets/readme-file/Capture8.PNG)
+
+
+
 
  [Go Top](#Silver-Gym)
  ## Design
