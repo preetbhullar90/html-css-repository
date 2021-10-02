@@ -536,10 +536,11 @@ span {
 #trainer4 img {
     overflow: hidden;
     position: relative;
-    width: 27em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     margin: auto;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 #trainer1 h2,
