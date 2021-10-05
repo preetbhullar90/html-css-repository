@@ -2,6 +2,9 @@
 
 [README.md file](/README.md)
 
+[View live project](https://preetbhullar90.github.io/html-css-repository/)
+
+[View website in GitHub Pages](https://github.com/preetbhullar90/html-css-repository)
 
 ## Table of contents
 1. [Testing User Stories](#Testing-User-Stories)
