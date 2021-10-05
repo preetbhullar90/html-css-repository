@@ -1,4 +1,4 @@
-py# Silver Gym
+# Silver Gym
 ## Contents
 1. [Introduction](#Introduction)
 
