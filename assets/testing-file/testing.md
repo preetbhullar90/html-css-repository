@@ -70,7 +70,7 @@
 
 * For current gym members, the videos on the facilities page are embedded and have a clear layout with information below each video describing the type of exercise.
 
-[Go Top](#Silver-Gym-Testing)
+[Go Top](#Table-of-contents)
 
  ## Manual File Test
 
@@ -125,7 +125,7 @@
 ### Mobile
  ![](/assets/testing-file/mobile1.gif)
 
- [Go Top](#Silver-Gym-Testing)
+ [Go Top](#Table-of-contents)
 
  ## Automated Testing
 
@@ -176,4 +176,4 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used t
 
 ![](/assets/testing-file/mobile.PNG)
 
-[Go Top](#Silver-Gym-Testing)
+[Go Top](#Table-of-contents)
