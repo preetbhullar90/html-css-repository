@@ -1,4 +1,19 @@
+# Silver Gym - Testing 
 
+[README.md file](/README.md)
+
+
+## Table of contents
+1. [Testing User Stories](#Testing-User-Stories)
+2. [Manual File Test](#Manual-File-Test)
+3. [Automated Testing](#Automated-Testing) 
+     - [Code Validation](#Code-Validation)
+     - [Browser Validation](#Browser-Validation)
+     - [Lighthouse](#Lighthouse)
+
+
+
+***
 ## Testing User Stories
 #### New/Potential Fans Goals:
 
