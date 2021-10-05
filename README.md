@@ -1,4 +1,4 @@
-# Silver Gym
+py# Silver Gym
 ## Contents
 1. [Introduction](#Introduction)
 
@@ -53,14 +53,15 @@ I mainly used HTML5 and CSS3 to make this website.
 ### User Stories
 
 #### New members :
-- For new members, I have included information about a free 24 hour car park for gym members.
-- For new members, I have linked a navbar and some blocks with a link to another page with information about the gym and the equipment available.
-- For new members, I have linked one block to the equipment video page where new members can see demonstrations of the various machines we have to offer. They can use the information on this page to plan their workouts. 
-- For new members, I have made a block on the home page which has information that can help new members understand how our personal trainers can help them achieve their fitness goal. 
+- For new/potential members, I have included information about a free 24 hour car park for gym members.
+- For new/potential members I have linked a Navbar and some blocks with a link to another page with information about the gym and the equipment available.
+- For new/potential members, I have linked one block  called ”facilities” to the equipment video page where new members can see demonstrations of the various machines we have to offer. They can use the information on this page to plan their workouts.
+- For new/potential members, I have made a block on the home page which has information that can help new members understand how our personal trainers can help them achieve their fitness goal.
+- For new/potential members, they can easily link to any of the gyms social media pages by clicking the social media icons such as Facebook, YouTube and twitter.
 
 #### Current gym members :
 - For current gym members, they can login to the website with their current Email and Password to see anything in their account.
-- For current gym members, they can extend, alter and cancel their membership with just one form.
+- For current gym members, they can easily link to any of the gyms social media pages by clicking the social media icons such as Facebook, YouTube and twitter.
 - For current gym members, they can learn how to use the equipment correctly by watching the videos available on the facilities video link.
 
 [Go Top](#Silver-Gym)

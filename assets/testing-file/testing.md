@@ -1,7 +1,60 @@
 
+## Testing User Stories
+#### New/Potential Fans Goals:
+
+1. For new/potential members, I have included information about a free 24 hour car park for gym members.
+
+* For new/potential members, I want them to be able to see the key features the gym offers such as “free parking for members”.
+
+* I have done this by writing this information in a block on the home page. This highlights this information and new/potential members can see this clearly.
+
+2. For new/potential members I have linked a Navbar and some blocks with a link to another page with information about the gym and the equipment available.
+
+* For new/potential members, the information about the gym and the equipment available is easily accessible and highlighted in blocks on the homepage.
+
+* For new/potential members, the Navbar makes it easy to see all the relevant information needed. This is made especially user friendly because as the user scrolls down on the page the Navbar is conveniently fixed to the top of the page on every page of the website.
+
+3. For new/potential members, I have linked one block  called ”facilities” to the equipment video page where new members can see demonstrations of the various machines we have to offer. They can use the information on this page to plan their workouts.
+
+* For new/potential members, a dedicated a block on the home page highlighting and linking to another page on the website where equipment videos are available to view.
+
+* For new/potential members, when they click the facilities block on the homepage the linked page has embedded videos with corresponding information needed to complete the various exercises.  
+
+4. For new/potential members, I have made a block on the home page which has information that can help new members understand how our personal trainers can help them achieve their fitness goal.
+
+* For new/potential members, they can easily find this information on the homepage as it is highlighted in its own individual block.
+
+* For new/potential members, the dedicated trainers block on the homepage entices new/potential members to visit the “trainer’s page” to find out more information.
+
+5. For new/potential members, they can easily link to any of the gyms social media pages by clicking the social media icons such as Facebook, YouTube and twitter.
+
+* For current gym members, each page of the website has a footer that says “follow us” with a icon corresponding to its social media website. When these icons are clicked they link the user to the gyms social media page on that platform.  
 
 
-3. ## Manual File Test
+
+
+
+#### Current Fans Goals:
+
+1. For current gym members, they can login to the website with their current Email and Password to see anything in their account.
+
+* For current gym members, a login option is available towards the bottom of every page above the embedded google map.
+
+* For current gym members, they can login while on any page of the website, which is convenient if they are viewing any information they may need from the website.
+
+2. For current gym members, they can easily link to any of the gyms social media pages by clicking the social media icons such as Facebook, YouTube and twitter.
+
+* For current gym members, each page of the website has a footer that says “follow us” with a logo corresponding to its social media website. When these icons are clicked they link the user to the gyms social media page on that platform.  
+
+2. For current gym members, they can learn how to use the equipment correctly by watching the videos available on the facilities page.
+
+* For current gym members, each video on the facilities page has a large title that is bold and east to read.
+
+* For current gym members, the videos on the facilities page are embedded and have a clear layout with information below each video describing the type of exercise.
+
+
+
+ ## Manual File Test
 
 * The home page responsive on all the devices.
  ### Home-Page
