@@ -266,6 +266,7 @@ strong {
     font-size: 17px;
     text-transform: capitalize;
     cursor: pointer;
+    padding-right: 16px;
 }
 
 #contact form input:nth-last-child(1):hover {
@@ -772,6 +773,7 @@ span {
     }
     #contact-navbar ul {
         width: 100%;
+        text-align: center;
     }
     #contact-navbar h2 {
         text-align: center;
