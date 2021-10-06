@@ -937,9 +937,11 @@ span {
     #trainer2 img,
     #trainer3 img,
     #trainer4 img {
-        width: 100%;
+        display: flex;
+        align-items: center;
+        width: 16em;
         margin: auto;
-        height: 19em;
+        height: 16em;
     }
     #trainer1 h2,
     #trainer1 p,
